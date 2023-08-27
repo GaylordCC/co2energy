@@ -1,0 +1,35 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    left: 0px;
+    top: 10px;
+}
+
+.image-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.name-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 5px;
+    width: 250px;
+    height: 50px;
+}
+
+.text-logo {
+    font-family: Arial, Verdana, Helvetica;
+    font-size: 25px;
+    color: #17337a;
+}
