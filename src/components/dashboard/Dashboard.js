@@ -8,6 +8,9 @@ import eficiencia from "./__styles__/images/eficiencia.png";
 import excelencia from "./__styles__/images/excelencia.png";
 import sustentabilidad from "./__styles__/images/sustentabilidad.png";
 import impacto from "./__styles__/images/impacto.png";
+import energetica from "./__styles__/images/energetica.png";
+import huella from "./__styles__/images/huella.png";
+
 
 const BodyDashboard = () => {
 
@@ -23,10 +26,10 @@ const BodyDashboard = () => {
                             <h4><a href='#AU'> Nosotros </a></h4>
                         </div>
                         <div className='Services'>
-                            <h4><a href=''> Servicios </a></h4>
+                            <h4><a href='#Serv'> Servicios </a></h4>
                         </div>
                         <div className='Contact'>
-                            <h4><a href=''> Contactos </a></h4>
+                            <h4><a href='#Cont'> Contactos </a></h4>
                         </div>
                     </div>
                 </div>
@@ -89,6 +92,9 @@ const BodyDashboard = () => {
                             </div>
                         </div>
                         <div className='values-pillars'>
+                            <div className='title-vp'>
+                                <h3> Valores </h3>
+                            </div>
                             <div className='values'>
                                 <div className='value'>
                                     <img className='im-v' src={compromiso} />
@@ -102,6 +108,9 @@ const BodyDashboard = () => {
                                     <img className='im-v' src={eficiencia} />
                                     <p className='text-v'> Eficiencia </p>
                                 </div>
+                            </div>
+                            <div className='title-vp'>
+                                <h3> Pilares </h3>
                             </div>
                             <div className='pillars'>
                                 <div className='pillar'>
@@ -120,6 +129,29 @@ const BodyDashboard = () => {
                         </div>
                     </a>
                 </div>
+                <div className='content-services'>
+                    <a id='Serv'>
+                        <div className='management-services'>
+                            <div className='energy-management'>
+                                <img className='im-management' src={energetica} />
+                                <p className='text-management'> Gestión Energética </p>
+                                <button className='button-more'> Ver más </button>
+                            </div>
+                            <div className='emissions-management'>
+                                <img className='im-management' src={huella} />
+                                <p className='text-management'> Gestión de Emisiones </p>
+                                <button className='button-more'> Ver más </button>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div className='content-contact'>
+                    <a id='Cont'>
+                        <h4>Hola Clientes</h4>
+                    </a>
+                </div>
+
            </div>
         </div>
     )
