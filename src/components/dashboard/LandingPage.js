@@ -1,5 +1,5 @@
 import React from 'react';
-import "./__styles__/index1.css";
+import "./__styles__/index.css";
 import Logo from "../logo/Logo";
 import Eolic from "./__styles__/images/Eolic.jpg";
 import compromiso from "./__styles__/images/compromiso.png";
@@ -8,9 +8,8 @@ import eficiencia from "./__styles__/images/eficiencia.png";
 import excelencia from "./__styles__/images/excelencia.png";
 import sustentabilidad from "./__styles__/images/sustentabilidad.png";
 import impacto from "./__styles__/images/impacto.png";
-import energetica from "./__styles__/images/energetica.png";
-import huella from "./__styles__/images/huella.png";
 import PV from "./__styles__/images/PV.mp4";
+import BodyService from "../service/Service";
 
 
 const BodyLandingPage = () => {
@@ -159,18 +158,7 @@ const BodyLandingPage = () => {
                 </div>
                 <div className='services'>
                     <a id="Serv">
-                        <div className='management-services'>
-                            <div className='energy-management'>
-                                <img className='im-management' src={energetica} />
-                                <p className='text-management'> Gestión Energética </p>
-                                <button className='buttonmore'> Ver más </button>
-                            </div>
-                            <div className='emissions-management'>
-                                <img className='im-management' src={huella} />
-                                <p className='text-management'> Gestión de Emisiones </p>
-                            <button className='buttonmore'> Ver más </button>
-                        </div>
-                        </div>
+                        <BodyService />
                     </a>
                 </div>
                 <div className='contactenos'>
