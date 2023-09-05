@@ -4,18 +4,23 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: white;
     border: 4px solid rgb(206, 114, 80);
 }
 
 .header {
     display: flex;
+    position: sticky;
+    top: 0;
+    top: 0%;
+    left: 0%;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     height: auto;
-    /* border: 2px solid rgb(13, 209, 52); */
+    background: white;
+    opacity: 1;
 }
 
 .top-bar {
@@ -53,6 +58,11 @@
     /* color: #17337a; */
 }
 
+.animation-wrapped {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
 
 .body-wrapped {
     display: flex;
