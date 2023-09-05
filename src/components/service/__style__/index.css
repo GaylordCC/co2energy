@@ -1,0 +1,72 @@
+.management-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    gap: 200px;
+}
+
+.energy-management {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 1;
+    gap: 120px;
+    padding-top: 50px;
+}
+
+.emissions-management {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/5462683/pexels-photo-5462683.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 1;
+    gap: 120px;
+    padding-top: 50px;
+}
+
+.im-management {
+    width: 350px;
+    height: 350px;
+}
+
+.text-management {
+    font-family: Georgia, serif, Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: white;
+}
+
+.buttonmore {
+    margin-top: 40px;
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #c0ea7d;
+    font-family: Georgia, serif, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonmore:hover {
+    background: whitesmoke;
+}
