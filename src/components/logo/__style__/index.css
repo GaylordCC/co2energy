@@ -1,35 +1,10 @@
 .logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 80px;
-    left: 0px;
-    top: 10px;
-}
-
-.image-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    margin-left: 20px;
-}
-
-.name-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 10px;
-    width: 250px;
-    height: 50px;
-}
-
-.text-logo {
-    font-family: georgia, serif;
-    font-size: 28px;
-    color: #17337a;
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+    /* border: 2px solid green; */
 }

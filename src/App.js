@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import BodyDashboard from './components/dashboard/Dashboard';
+import BodyLandingPage from './components/dashboard/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <BodyDashboard />
+      <BodyLandingPage />
 
     </div>
   );
