@@ -1,6 +1,5 @@
 import React from 'react';
 import "./__styles__/index.css";
-import Logo from "../logo/Logo";
 import Eolic from "./__styles__/images/Eolic.jpg";
 import compromiso from "./__styles__/images/compromiso.png";
 import sostenibilidad from "./__styles__/images/sostenibilidad.png";
@@ -9,7 +8,8 @@ import excelencia from "./__styles__/images/excelencia.png";
 import sustentabilidad from "./__styles__/images/sustentabilidad.png";
 import impacto from "./__styles__/images/impacto.png";
 import PV from "./__styles__/images/PV.mp4";
-import BodyService from "../service/Service";
+import ManagementActivity from "../managementActivity/ManagementActivity";
+import BodyHeader from '../header/Header';
 
 
 const BodyLandingPage = () => {
@@ -17,21 +17,7 @@ const BodyLandingPage = () => {
     return (
         <div className='main-wrapped'>
             <div className='header'>
-                <div className='logo-name'>
-                    <Logo />
-                </div>
-                <div className='top-bar'>
-                    <button className='start'> Inicio </button>
-                    <div className='AboutUs'>
-                        <h4 className='font-bar'><a href='#AU'> Nosotros </a></h4>
-                    </div>
-                    <div className='Services'>
-                        <h4 className='font-bar'><a href='#Serv'> Servicios </a></h4>
-                    </div>
-                    <div className='Contact'>
-                        <h4 className='font-bar'><a href='#Cont'> Contactanos </a></h4>
-                    </div>
-                </div>
+                    <BodyHeader />
             </div>
             <div className='animation-wrapped'>
                 <video width="100%" height="auto" loop muted autoPlay controls='' src={PV} type="video/mp4" >
@@ -158,7 +144,7 @@ const BodyLandingPage = () => {
                 </div>
                 <div className='services'>
                     <a id="Serv">
-                        <BodyService />
+                        <ManagementActivity />
                     </a>
                 </div>
                 <div className='contactenos'>

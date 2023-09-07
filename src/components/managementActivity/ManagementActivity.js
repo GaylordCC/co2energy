@@ -3,7 +3,7 @@ import "./__style__/index.css";
 import energetica from "./__style__/images/energetica.png";
 import huella from "./__style__/images/huella.png";
 
-const BodyService = () => {
+const ManagementActivity = () => {
 
     return (
         <div className='service-wrapped'>
@@ -23,4 +23,4 @@ const BodyService = () => {
     )
 }
 
-export default BodyService
+export default ManagementActivity
