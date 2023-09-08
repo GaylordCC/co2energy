@@ -29,47 +29,48 @@ const EmissionPage = () => {
                     <h2 className='title-sub'> Servicios de Gestion de Emisiones de CO2 </h2>
                     <ul className='list-activities'>
                         <li>
-                            Realizamos un análisis exhaustivo de las emisiones de gases de efecto 
-                            invernadero de la organización, incluyendo fuentes directas e indirectas, 
+                            Realizamos análisis de las emisiones de gases de efecto invernadero 
+                            de su empresa, abarcando tanto las fuentes directas como las indirectas, 
                             tanto en la producción como en la cadena de suministro.
                         </li>
                         <li>
-                            Evaluamos el impacto ambiental de las emisiones de carbono, identificando 
-                            áreas críticas y oportunidades para la reducción de emisiones.
+                            Evaluamos el impacto medioambiental de las emisiones de carbono, 
+                            detectando áreas críticas y oportunidades para la reducción de dichas emisiones.
                         </li>
                         <li>
-                            Definimos estrategias de Reducción que permitan a la organización establecer 
-                            objetivos y metas de reducción de emisiones, así como desarrollar estrategias y 
-                            planes de acción para lograrlos.
+                            Definimos estrategias de disminución que permiten a la organización establecer 
+                            objetivos y metas de reducción de emisiones, además de desarrollar estrategias y 
+                            planes de acción para alcanzarlos.
                         </li>
                         <li>
                             Identificamos y recomendamos tecnologías y prácticas más limpias y eficientes 
-                            que puedan ayudar a reducir las emisiones de carbono.
+                            que puedan contribuir a la reducción de las emisiones de carbono.
                         </li>
                         <li>
-                            Realizamos un análisis completo del ciclo de vida de productos o servicios, 
-                            desde la extracción de materias primas hasta la disposición final, para evaluar 
-                            las emisiones asociadas en todas las etapas.
+                            Llevamos a cabo análisis del ciclo de vida de productos o servicios, desde la 
+                            extracción de materias primas hasta la disposición final, para evaluar las emisiones 
+                            asociadas en todas las etapas.
                         </li>
                         <li>
-                            Monitoreamos y mantenemos un registro actualizado de las emisiones de gases de 
-                            efecto invernadero de la organización, lo que puede ser requerido por regulaciones 
-                            o estándares internacionales.
+                            Mantenemos un registro actualizado y monitoreamos las emisiones de gases de efecto 
+                            invernadero de la organización, lo que puede ser necesario para cumplir con 
+                            regulaciones o estándares internacionales.
                         </li>
                         <li>
-                            Ofrecemos programas de formación para empleados y equipos de gestión sobre la 
-                            importancia de la gestión de la huella de carbono y cómo contribuir a la reducción de emisiones.
+                            Ofrecemos programas de capacitación dirigidos a empleados y equipos de gestión, 
+                            enfocados en la importancia de gestionar la huella de carbono y cómo contribuir a 
+                            la reducción de emisiones.
                         </li>
                         <li>
-                            Elaboramos informes de sostenibilidad que destaquen los esfuerzos y logros de la organización 
-                            en términos de reducción de emisiones.
+                            Preparamos informes de sostenibilidad que resaltan los esfuerzos y logros de la 
+                            organización en términos de reducción de emisiones.
                         </li>
                         <li>
-                            Asesoramos sobre estrategias de compensación de carbono, incluyendo la inversión en proyectos 
-                            de captura o reducción de emisiones para compensar las emisiones propias.
+                            Proporcionamos asesoramiento sobre estrategias de compensación de carbono, incluyendo 
+                            la inversión en proyectos para capturar o reducir emisiones y así compensar las emisiones propias.
                         </li>
                         <li>
-                            Programa de capacitaciones en huella de carbono.
+                            Ofrecemos un programa de formación/capacitación en temáticas de huella de carbono.
                         </li>
                     </ul>
                 </div>

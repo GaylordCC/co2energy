@@ -10,9 +10,17 @@ import impacto from "./__styles__/images/impacto.png";
 import PV from "./__styles__/images/PV.mp4";
 import ManagementActivity from "../managementActivity/ManagementActivity";
 import BodyHeader from '../header/Header';
+import {useRef} from 'react';
+
 
 
 const BodyLandingPage = () => {
+
+    const ref = useRef(null);
+
+    const handleClick = () => {
+      ref.current?.scrollIntoView({behavior: 'smooth'});
+    };
 
     return (
         <div className='main-wrapped'>
@@ -28,40 +36,32 @@ const BodyLandingPage = () => {
             </div>
             <div className='body-wrapped'>
                 <div className='aboutus'>
-                    <a id="AU">
+                    <a id="AU" onClick={handleClick} ref={ref}>
                         <div className='title-about'>
                             <h2 className='title-about'> Quienes Somos ? </h2>
                         </div>
                         <div className='content-about'>
                             <p>
-                                Somos un equipo apasionado de innovadores comprometidos
-                                con la creación de un futuro energético sostenible para
-                                las generaciones venideras. Nuestra misión es clara: 
-                                transformar la forma en que el mundo concibe, produce y
-                                consume energía.
+                                Somos un equipo apasionado de innovadores comprometidos con un futuro 
+                                energético sostenible. Nuestra misión es transformar la forma en que 
+                                el mundo concibe, produce y consume energía.
                             </p>
                             <p>
-                                Con años de experiencia combinada en campos que abarcan
-                                desde la ingeniería hasta la conservación del medio ambiente, 
-                                nuestro equipo talentoso colabora para idear soluciones 
-                                innovadoras que redefinen los límites de la sostenibilidad 
-                                energética. Creemos en el poder de la colaboración y en la 
-                                capacidad de nuestras ideas para impulsar un cambio real.
+                                Con experiencia en ingeniería y conservación del medio ambiente, 
+                                colaboramos en soluciones innovadoras para la sostenibilidad energética, 
+                                creyendo en el poder de nuestras ideas para generar un cambio real.
                             </p>
                             <p>
-                                Nuestra dedicación va más allá de la innovación tecnológica; 
-                                se trata de inspirar a las personas a abrazar un estilo de 
-                                vida sostenible y responsable. A través de la educación, 
-                                la participación comunitaria y el ejemplo, buscamos difundir 
-                                la conciencia sobre la importancia de las fuentes de energía 
-                                renovable y su papel fundamental en la preservación de nuestro planeta.
+                                Vamos más allá de la innovación tecnológica, inspirando a las personas a 
+                                adoptar un estilo de vida sostenible mediante educación, participación 
+                                comunitaria y ejemplos, difundiendo la importancia de las energías 
+                                renovables en la preservación del planeta.
                             </p>
                             <p>
-                                En Ener-Green, nuestra pasión por un futuro más verde se manifiesta 
-                                en cada proyecto que emprendemos. Estamos comprometidos con la excelencia, 
-                                la ética y la visión de un mundo donde la energía y la sostenibilidad 
-                                convergen para impulsar un cambio duradero. Juntos, estamos construyendo 
-                                un legado de innovación donde se tenga Energía para Hoy, Sostenibilidad para Siempre.
+                                En Ener-Green, nuestra pasión se refleja en cada proyecto, comprometidos con la 
+                                excelencia, la ética y un mundo donde energía y sostenibilidad se unen para un 
+                                cambio duradero. Construimos un legado de innovación con "Energía para Hoy, 
+                                Sostenibilidad para Siempre".
                             </p>
                         </div>
                         <div className='mission-vision'>
@@ -81,23 +81,19 @@ const BodyLandingPage = () => {
                             <div className='vision'>
                                 <h2 className='title-sub'> Visión </h2>
                                 <p className='content-vision'>
-                                    En Ener-Green SAS, visualizamos un futuro en el que la energía sostenible sea la columna 
-                                    vertebral de la sociedad global. Nos esforzamos por ser líderes en la revolución energética, 
-                                    impulsando un mundo donde las fuentes de energía renovable y el uso racional de la energía 
-                                    se unan para crear un entorno armonioso entre el progreso humano y la salud de nuestro planeta.
+                                    En Energies Greens SAS, visualizamos un futuro donde la energía sostenible sea la base de la sociedad 
+                                    global. Buscamos liderar la revolución energética, promoviendo el uso de energías renovables y la 
+                                    eficiencia energética para equilibrar el progreso humano y la salud del planeta. 
                                 </p>
                                 <p className='content-vision'>
-                                    Queremos ser la fuerza motriz detrás de la transformación hacia un futuro energético sostenible. 
-                                    A medida que avanzamos, nos esforzamos por inspirar a otros a adoptar prácticas responsables, 
-                                    fomentando el uso eficiente de la energía, conciencia ambiental, y gestión energética y 
-                                    generando soluciones que promuevan la eficiencia y la equidad en la distribución de energía.
+                                    Nuestro objetivo es impulsar la transformación hacia un futuro energético sostenible, inspirando a otros 
+                                    a adoptar prácticas responsables, promoviendo la conciencia ambiental y generando soluciones que fomenten 
+                                    la eficiencia y la equidad en la distribución de energía. 
                                 </p>
                                 <p className='content-vision'>
-                                    En Ener-Green SAS, nuestra visión es un mundo en el que las generaciones presentes y futuras 
-                                    prosperen en un entorno impulsado por una energía limpia, abundante y respetuosa con el medio 
-                                    ambiente. Estamos comprometidos con el desarrollo y la implementación de tecnologías innovadoras 
-                                    que allanen el camino hacia esta visión, mientras colaboramos con socios, comunidades y gobiernos 
-                                    para construir juntos un mañana más brillante y sostenible.
+                                    Trabajamos para que las generaciones presentes y futuras prosperen en un entorno impulsado por una energía limpia, 
+                                    abundante y respetuosa con el medio ambiente, mediante la implementación de tecnologías innovadoras y colaborando 
+                                    con socios, comunidades y gobiernos para construir un mañana más brillante y sostenible.
                                 </p>
                             </div>
                         </div>
