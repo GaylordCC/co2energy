@@ -5,15 +5,17 @@ import ManagementActivity from './components/managementActivity/ManagementActivi
 import EnergyPage from './components/energyPage/Energypage';
 import EmissionPage from "./components/emissionPage/EmissionPage";
 import BodyHeader from './components/header/Header';
+import RoutesPages from "./config/routes";
 
 function App() {
   return (
     <div className="App">
       {/* <BodyLandingPage /> */}
       {/* <ManagementActivity /> */}
-      <EnergyPage />
+      {/* <EnergyPage /> */}
       {/* <EmissionPage /> */}
       {/* <BodyHeader /> */}
+      < RoutesPages />
 
     </div>
   );

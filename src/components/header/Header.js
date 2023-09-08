@@ -4,13 +4,18 @@ import Logo from "../logo/Logo";
 
 const BodyHeader = () => {
 
+    const handleGoStart = () => {
+        window.location.href = '/';
+    }
+
+
     return (
         <div className='header'>
             <div className='logo-name'>
                 <Logo />
             </div>
             <div className='top-bar'>
-                <button className='start'> Inicio </button>
+                <button className='start' onClick={handleGoStart}> Inicio </button>
                 <div className='AboutUs'>
                     <h4 className='font-bar'><a href='#AU'> Nosotros </a></h4>
                 </div>
