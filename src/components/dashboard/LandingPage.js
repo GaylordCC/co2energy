@@ -44,20 +44,14 @@ const BodyLandingPage = () => {
                             <p>
                                 Somos un equipo apasionado de innovadores comprometidos con un futuro 
                                 energético sostenible. Nuestra misión es transformar la forma en que 
-                                el mundo concibe, produce y consume energía.
-                            </p>
-                            <p>
+                                el mundo concibe, produce y consume energía. <br />
                                 Con experiencia en ingeniería y conservación del medio ambiente, 
                                 colaboramos en soluciones innovadoras para la sostenibilidad energética, 
-                                creyendo en el poder de nuestras ideas para generar un cambio real.
-                            </p>
-                            <p>
+                                creyendo en el poder de nuestras ideas para generar un cambio real. <br />
                                 Vamos más allá de la innovación tecnológica, inspirando a las personas a 
                                 adoptar un estilo de vida sostenible mediante educación, participación 
                                 comunitaria y ejemplos, difundiendo la importancia de las energías 
-                                renovables en la preservación del planeta.
-                            </p>
-                            <p>
+                                renovables en la preservación del planeta. <br />
                                 En Ener-Green, nuestra pasión se refleja en cada proyecto, comprometidos con la 
                                 excelencia, la ética y un mundo donde energía y sostenibilidad se unen para un 
                                 cambio duradero. Construimos un legado de innovación con "Energía para Hoy, 
@@ -83,14 +77,10 @@ const BodyLandingPage = () => {
                                 <p className='content-vision'>
                                     En Energies Greens SAS, visualizamos un futuro donde la energía sostenible sea la base de la sociedad 
                                     global. Buscamos liderar la revolución energética, promoviendo el uso de energías renovables y la 
-                                    eficiencia energética para equilibrar el progreso humano y la salud del planeta. 
-                                </p>
-                                <p className='content-vision'>
+                                    eficiencia energética para equilibrar el progreso humano y la salud del planeta. <br />
                                     Nuestro objetivo es impulsar la transformación hacia un futuro energético sostenible, inspirando a otros 
                                     a adoptar prácticas responsables, promoviendo la conciencia ambiental y generando soluciones que fomenten 
-                                    la eficiencia y la equidad en la distribución de energía. 
-                                </p>
-                                <p className='content-vision'>
+                                    la eficiencia y la equidad en la distribución de energía. <br />
                                     Trabajamos para que las generaciones presentes y futuras prosperen en un entorno impulsado por una energía limpia, 
                                     abundante y respetuosa con el medio ambiente, mediante la implementación de tecnologías innovadoras y colaborando 
                                     con socios, comunidades y gobiernos para construir un mañana más brillante y sostenible.
