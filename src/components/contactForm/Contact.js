@@ -39,6 +39,33 @@ export default function Contact() {
                                placeholder="Enter Last Name"/>
                     </div>
                 </div>
+                <div className="flex flex-row">
+                    <div className="w-1/2 pr-2 ">
+                        <label for="firstName" 
+                               className="block my-2 text-left 
+                                          text-sm font-medium text-gray-900">
+                            Empresa
+                        </label>
+                        <input type="text" 
+                               className="shadow-sm bg-gray-50 border
+                                          border-gray-300 text-gray-900 
+                                          text-sm rounded-lg block w-full p-2.5" 
+                               placeholder="Enter Company Name"
+                               required/>
+                    </div>
+                    <div className="w-1/2 pl-2">
+                        <label for="firstName" 
+                               className="block my-2 text-left text-sm 
+                                          font-medium text-gray-900">
+                            Teléfono o Célular
+                        </label>
+                        <input type="text" 
+                               className="shadow-sm bg-gray-50 border 
+                                          border-gray-300 text-gray-900 
+                                          text-sm rounded-lg block w-full p-2.5"
+                               placeholder="Enter Phone Number"/>
+                    </div>
+                </div>
                 <div>
                     <label for="email" 
                            className="block my-2 text-left text-sm 
@@ -80,7 +107,7 @@ export default function Contact() {
                 <button type="submit" 
                         className="mt-2 p-2 float-right text-white  
                                    rounded-lg border-green-600 
-                                   bg-green-600 hover:scale-105">
+                                 bg-blue-900 hover:scale-105">
                     Enviar mensaje
                 </button>
             </form>
