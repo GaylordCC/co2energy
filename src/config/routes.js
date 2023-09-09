@@ -4,8 +4,6 @@ import LandingPage from "../components/dashboard/LandingPage";
 import EnergyPage from "../components/energyPage/Energypage";
 import EmissionPage from "../components/emissionPage/EmissionPage";
 import Contact from "../components/contactForm/Contact";
-import Banner from "../components/contactForm/Banner";
-
 
 
 const AppRoutes = () => {
@@ -13,7 +11,6 @@ const AppRoutes = () => {
       { path: "/", element: <LandingPage /> },
       { path: "/energy", element: <EnergyPage /> },
       { path: "/emission", element: <EmissionPage /> },
-      { path: "/banner", element: <Banner /> },
       { path: "/contact", element: <Contact /> }
     ]);
     return routes;

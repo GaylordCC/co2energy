@@ -11,6 +11,8 @@ import PV from "./__styles__/images/PV.mp4";
 import ManagementActivity from "../managementActivity/ManagementActivity";
 import BodyHeader from '../header/Header';
 import {useRef} from 'react';
+import Contact from "../contactForm/Contact";
+import Banner from "../contactForm/Banner";
 
 
 
@@ -133,9 +135,10 @@ const BodyLandingPage = () => {
                         <ManagementActivity />
                     </a>
                 </div>
-                <div className='contactenos'>
+                <div className='contact'>
                     <a id='Cont'>
-                        <h1> HABLEMOS POR ESTE CANAL </h1>
+                        <Banner />
+                        <Contact />
                     </a>
                 </div>
             </div>

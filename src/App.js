@@ -17,9 +17,9 @@ function App() {
       {/* <EnergyPage /> */}
       {/* <EmissionPage /> */}
       {/* <BodyHeader /> */}
-      {/* < RoutesPages /> */}
-      <Banner />
-      < Contact />
+      < RoutesPages />
+      {/* <Banner /> */}
+      {/* < Contact /> */}
 
     </div>
   );
