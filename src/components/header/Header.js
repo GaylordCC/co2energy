@@ -4,11 +4,9 @@ import Logo from "../logo/Logo";
 
 
 const BodyHeader = () => {
-
     const handleGoStart = () => {
         window.location.href = '/';
     }
-
 
     return (
         <div className='header'>

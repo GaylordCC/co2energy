@@ -13,6 +13,7 @@ import BodyHeader from '../header/Header';
 import {useRef} from 'react';
 import Contact from "../contactForm/Contact";
 import Banner from "../contactForm/Banner";
+import ScrollIndicator from "../scrollIndicator/ScrollIndicator";
 
 
 
@@ -29,11 +30,20 @@ const BodyLandingPage = () => {
             <div className='header'>
                     <BodyHeader />
             </div>
+            <div className='scrollbar'>
+                <ScrollIndicator color="#17337a" />
+            </div>
             <div className='animation-wrapped'>
                 <video width="100%" height="auto" loop muted autoPlay controls='' src={PV} type="video/mp4" >
+                    <div className='auxlem'>
+                        <a className='scrollBut moveDiapo go-2' href="#slogas">
+                            <span></span>
+                            "Scroll"
+                        </a>
+                    </div>
                 </video>
             </div>
-            <div className='slogan'>
+            <div className='slogan' id='slogas'>
                 <p> Energía para hoy, Sostenibilidad para siempre </p>
             </div>
             <div className='body-wrapped'>
