@@ -6,7 +6,7 @@
     width: 100%;
     height: auto;
     background: white;
-    border: 4px solid rgb(206, 114, 80);
+    /* border: 4px solid rgb(206, 114, 80); */
 }
 
 .scrollbar {
@@ -30,6 +30,7 @@
     flex-direction: column;
     width: 1200px;
     height: auto;
+    margin-bottom: 60px;
     /* border: 2px solid blue; */
 }
 
@@ -103,6 +104,8 @@
     width: 100%;
     height: auto;
     gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .mission {

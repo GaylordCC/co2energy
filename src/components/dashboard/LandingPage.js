@@ -14,6 +14,7 @@ import {useRef} from 'react';
 import Contact from "../contactForm/Contact";
 import Banner from "../contactForm/Banner";
 import ScrollIndicator from "../scrollIndicator/ScrollIndicator";
+import Typewriter from "../typewriter/Typewriter";
 
 
 
@@ -44,7 +45,7 @@ const BodyLandingPage = () => {
                 </video>
             </div>
             <div className='slogan' id='slogas'>
-                <p> Energía para hoy, Sostenibilidad para siempre </p>
+                <Typewriter text="Energía para hoy, Sostenibilidad para siempre" delay={250} infinite />
             </div>
             <div className='body-wrapped'>
                 <div className='aboutus'>
@@ -138,6 +139,9 @@ const BodyLandingPage = () => {
                             </div>
                         </div>
                     </a>
+
+                </div>
+                <div className='carousel'>
 
                 </div>
                 <div className='services'>
