@@ -8,6 +8,8 @@ import BodyHeader from './components/header/Header';
 import RoutesPages from "./config/routes";
 import Contact from "./components/contactForm/Contact";
 import Banner from "./components/contactForm/Banner";
+import BodyCarousel from "./components/carousel/Carousel";
+import BodyDot from "./components/carousel/Dot";
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
       < RoutesPages />
       {/* <Banner /> */}
       {/* < Contact /> */}
+      {/* <BodyDot /> */}
     </div>
   );
 }

@@ -15,6 +15,7 @@ import Contact from "../contactForm/Contact";
 import Banner from "../contactForm/Banner";
 import ScrollIndicator from "../scrollIndicator/ScrollIndicator";
 import Typewriter from "../typewriter/Typewriter";
+import BodyDot from "../carousel/Dot";
 
 
 
@@ -139,10 +140,9 @@ const BodyLandingPage = () => {
                             </div>
                         </div>
                     </a>
-
                 </div>
                 <div className='carousel'>
-
+                    <BodyDot />
                 </div>
                 <div className='services'>
                     <a id="Serv">
