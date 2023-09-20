@@ -149,15 +149,18 @@ const BodyLandingPage = () => {
                         <ManagementActivity />
                     </a>
                 </div>
-                <div className='contact'>
-                    <a id='Cont'>
-                        <Banner />
-                        <Contact />
-                    </a>
-                </div>
+
+            </div>
+            <div className='contact'>
+                <a id='Cont'>
+                    <Banner />
+                    <Contact />
+                </a>
             </div>
             <div className='footer'>
-                <img className="footer" src={Eolic}/>
+                <div className='footerImage'>
+                </div>
+                {/* <img className="footer" src={Eolic}/> */}
             </div>
         </div>
     )
