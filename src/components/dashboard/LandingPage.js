@@ -141,15 +141,14 @@ const BodyLandingPage = () => {
                         </div>
                     </a>
                 </div>
-                <div className='carousel'>
-                    <BodyDot />
-                </div>
-                <div className='services'>
-                    <a id="Serv">
-                        <ManagementActivity />
-                    </a>
-                </div>
-
+            </div>
+            <div className='carousel'>
+                <BodyDot />
+            </div>
+            <div className='services'>
+                <a id="Serv">
+                    <ManagementActivity />
+                </a>
             </div>
             <div className='contact'>
                 <a id='Cont'>

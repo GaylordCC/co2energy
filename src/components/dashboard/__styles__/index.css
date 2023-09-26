@@ -204,9 +204,11 @@
 }
 
 .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: auto;
-    /* border: 2px solid red; */
 }
 
 .services {
@@ -216,6 +218,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 80px;
+    /* border: 2px solid rgb(206, 7, 173); */
 }
 
 .contact {

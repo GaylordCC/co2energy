@@ -47,22 +47,23 @@ const BodyCarousel = () => {
     <div class="slideshow-container">
       <div class="mySlides fade">
         <div class="numbertext"> </div>
-          <img src="https://images.pexels.com/photos/695342/pexels-photo-695342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{objectFit:"cover"}}/>
+        <img src="https://images.pexels.com/photos/695342/pexels-photo-695342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+        {/* <img className='image-carousel' src="https://images.pexels.com/photos/695342/pexels-photo-695342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{objectFit:"cover"}}/> */}
         <div class="text"> </div>
       </div>
       <div class="mySlides fade">
         <div class="numbertext"> </div>
-          <img src="https://images.pexels.com/photos/3641377/pexels-photo-3641377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{objectFit:"cover"}}/>
+        <img src="https://images.pexels.com/photos/3641377/pexels-photo-3641377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         <div class="text"> </div>
       </div>
       <div class="mySlides fade">
         <div class="numbertext"> </div>
-          <img src="https://images.pexels.com/photos/305833/pexels-photo-305833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{objectFit:"cover"}}/>
+        <img src="https://images.pexels.com/photos/305833/pexels-photo-305833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         <div class="text"> </div>
       </div>
       <div class="mySlides fade">
         <div class="numbertext"> </div>
-          <img src="https://images.pexels.com/photos/14673396/pexels-photo-14673396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style={{objectFit:"cover"}}/>
+        <img src="https://images.pexels.com/photos/14673396/pexels-photo-14673396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         <div class="text"> </div>
       </div>
     </div>
