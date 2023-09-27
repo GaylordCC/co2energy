@@ -8,7 +8,7 @@ const Logo = () => {
     return (
         <div className='logo'>
             <div className='logo'>
-                <img className='' src={LogoEner} />
+                <img className='image-logo' src={LogoEner} />
             </div>
         </div>
     )

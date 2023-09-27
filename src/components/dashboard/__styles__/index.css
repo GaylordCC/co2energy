@@ -232,16 +232,103 @@
 
 .footer {
     width: 100%;
-    opacity: 0.5;
+    height: 400px;
+    background-color: #0a205a;
+    /* background-image: url("https://images.pexels.com/photos/7527911/pexels-photo-7527911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: 100% 400px;
+    /* background-repeat: no-repeat; */
 }
 
-.footerImage {
+.footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     width: 100%;
-    height: 600px;
-    background-image: url("https://images.pexels.com/photos/9800092/pexels-photo-9800092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: 100% 600px;
-    background-repeat: no-repeat;
+    height: 100%;
+    gap: 30px;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.follow-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+.text-footer {
+    font-family: serif, sans-serif;
+    font-size: 27px;
+    font-weight: 550;
+    color: #FFFFFF;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.icon-socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    --bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--bg-opacity));
+    color: #0496ff;
+    border-radius: 15px;
+}
+
+.fa {
+    padding: 20px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.new-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+}
+
+.inside-media {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.text-link {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #FFFFFF;
 }

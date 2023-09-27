@@ -5,9 +5,10 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: auto;
+    height: 120px;
     background: white;
     opacity: 1;
+    gap: 80px;
     /* z-index: 10000; */
 }
 
@@ -16,19 +17,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 70px;
-    margin-right: 80px;
+    gap: 10px;
+    margin-right: 30px;
     /* border: 2px solid blue; */
 }
 
 .start {
-    width: 200px;
-    height: 80px;
+    width: 650px;
+    height: 70px;
     border-radius: 30px;
     background: #17337a;
     font-family: serif, sans-serif;
-    font-size: 28px;
-    font-weight: 750;
+    font-size: 23px;
+    font-weight: 550;
     letter-spacing: 3px;
     color: white;
     cursor: pointer;
@@ -40,8 +41,8 @@
 
 .font-bar {
     font-family: serif, sans-serif;
-    letter-spacing: 3px;
-    font-size: 28px;
+    letter-spacing: 2px;
+    font-size: 25px;
     color: #004aad;
     /* color: #17337a; */
 }
