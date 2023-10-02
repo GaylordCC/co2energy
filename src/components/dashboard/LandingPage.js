@@ -1,12 +1,6 @@
 import React from 'react';
 import "./__styles__/index.css";
 import Eolic from "./__styles__/images/Eolic.jpg";
-import compromiso from "./__styles__/images/compromiso.png";
-import sostenibilidad from "./__styles__/images/sostenibilidad.png";
-import eficiencia from "./__styles__/images/eficiencia.png";
-import excelencia from "./__styles__/images/excelencia.png";
-import sustentabilidad from "./__styles__/images/sustentabilidad.png";
-import impacto from "./__styles__/images/impacto.png";
 import PV from "./__styles__/images/PV.mp4";
 import ManagementActivity from "../managementActivity/ManagementActivity";
 import BodyHeader from '../header/Header';
@@ -30,11 +24,11 @@ const BodyLandingPage = () => {
 
     return (
         <div className='main-wrapped'>
+            <div className='scrollbar'>
+                <ScrollIndicator color="#65A056" />
+            </div>
             <div className='header'>
                     <BodyHeader />
-            </div>
-            <div className='scrollbar'>
-                <ScrollIndicator color="#17337a" />
             </div>
             <div className='animation-wrapped'>
                 <video width="100%" height="auto" loop muted autoPlay controls='' src={PV} type="video/mp4" >
@@ -47,35 +41,48 @@ const BodyLandingPage = () => {
                 </video>
             </div>
             <div className='slogan' id='slogas'>
-                <Typewriter text="Energía para hoy, Sostenibilidad para siempre" delay={250} infinite />
+                <Typewriter text="Energía para hoy, Sostenibilidad para siempre" delay={100} infinite />
             </div>
             <div className='body-wrapped'>
                 <div className='aboutus'>
                     <a id="AU" onClick={handleClick} ref={ref}>
                         <div className='title-about'>
-                            <h2 className='title-about'> Quienes Somos ? </h2>
+                            <h2 className='title-about'> Quienes Somos </h2>
                         </div>
                         <div className='content-about'>
-                            <p>
-                                Somos un equipo apasionado de innovadores comprometidos con un futuro 
-                                energético sostenible. Nuestra misión es transformar la forma en que 
-                                el mundo concibe, produce y consume energía. <br />
-                                Con experiencia en ingeniería y conservación del medio ambiente, 
-                                colaboramos en soluciones innovadoras para la sostenibilidad energética, 
-                                creyendo en el poder de nuestras ideas para generar un cambio real. <br />
-                                Vamos más allá de la innovación tecnológica, inspirando a las personas a 
-                                adoptar un estilo de vida sostenible mediante educación, participación 
-                                comunitaria y ejemplos, difundiendo la importancia de las energías 
-                                renovables en la preservación del planeta. <br />
-                                En Ener-Green, nuestra pasión se refleja en cada proyecto, comprometidos con la 
-                                excelencia, la ética y un mundo donde energía y sostenibilidad se unen para un 
-                                cambio duradero. Construimos un legado de innovación con "Energía para Hoy, 
-                                Sostenibilidad para Siempre".
-                            </p>
+                            <div className=''>
+                                <p className='p01'>
+                                    Somos un equipo apasionado de innovadores comprometidos con un futuro 
+                                    energético sostenible. Nuestra misión es transformar la forma en que 
+                                    el mundo concibe, produce y consume energía. <br/>
+                                </p>
+                                <p >
+                                    Vamos más allá de la innovación tecnológica, inspirando a las personas a 
+                                    adoptar un estilo de vida sostenible mediante educación, participación 
+                                    comunitaria y ejemplos, difundiendo la importancia de las energías 
+                                    renovables en la preservación del planeta.
+                                </p>
+                            </div>
+                            <div className=''>
+                                <p className='p02'>
+                                    Con experiencia en ingeniería y conservación del medio ambiente, 
+                                    colaboramos en soluciones innovadoras para la sostenibilidad energética, 
+                                    creyendo en el poder de nuestras ideas para generar un cambio real. <br/>
+                                </p>
+                                <p>
+                                    En Ener-Green, nuestra pasión se refleja en cada proyecto, comprometidos con la 
+                                    excelencia, la ética y un mundo donde energía y sostenibilidad se unen para un 
+                                    cambio duradero. Construimos un legado de innovación con "Energía para Hoy, 
+                                    Sostenibilidad para Siempre".
+                                </p>
+                            </div>
                         </div>
                         <div className='mission-vision'>
                             <div className='mission'>
-                                <h2 className='title-sub'> Misión </h2>
+                                <div className='im-tex-mv'>
+                                    <img className='img-mv' src="https://cdn-icons-png.flaticon.com/128/3463/3463192.png" />
+                                    <h2 className='title-mv'> Misión </h2>
+                                </div>
                                 <p className='content-mission'>
                                     Nuestra misión es liderar la transformación hacia un futuro energético sostenible y 
                                     respetuoso con el medio ambiente. Nos comprometemos a brindar soluciones innovadoras
@@ -88,7 +95,10 @@ const BodyLandingPage = () => {
                                 </p>
                             </div>
                             <div className='vision'>
-                                <h2 className='title-sub'> Visión </h2>
+                                <div className='im-tex-mv'>
+                                    <img className='img-mv' src="https://cdn-icons-png.flaticon.com/128/5148/5148946.png" />
+                                    <h2 className='title-mv'> Visión </h2>
+                                </div>
                                 <p className='content-vision'>
                                     En Energies Greens SAS, visualizamos un futuro donde la energía sostenible sea la base de la sociedad 
                                     global. Buscamos liderar la revolución energética, promoviendo el uso de energías renovables y la 
@@ -104,39 +114,39 @@ const BodyLandingPage = () => {
                         </div>
                         <div className='values'>
                             <div className='title-sub'>
-                                <h2 className='title-sub'> Valores </h2>
+                                <h2 className='title-vp'> Valores </h2>
                             </div>
                             <div className='list-vp'>
                                 <div className='value'>
-                                    <img className='im-v' src={compromiso} />
+                                    <img className='im-v' src="https://cdn-icons-png.flaticon.com/128/2618/2618576.png" />
                                     <p className='text-v'> Compromiso </p>
                                 </div>
                                 <div className='value'>
-                                    <img className='im-v' src={sostenibilidad} />
+                                    <img className='im-v' src="https://cdn-icons-png.flaticon.com/128/11029/11029302.png" />
                                     <p className='text-v'> Sostenibilidad </p>
                                 </div>
                                 <div className='value'>
-                                    <img className='im-v' src={eficiencia} />
+                                    <img className='im-v' src="https://cdn-icons-png.flaticon.com/128/11651/11651987.png" />
                                     <p className='text-v'> Eficiencia </p>
                                 </div>
                             </div>
                         </div>
                         <div className='pillars'>
                             <div className='title-sub'>
-                                <h2 className='title-sub'> Pilares </h2>
+                                <h2 className='title-vp'> Pilares </h2>
                             </div>
                             <div className='list-vp'>
                                 <div className='pillar'>
-                                    <img className='im-p' src={excelencia} />
+                                    <img className='im-p' src="https://cdn-icons-png.flaticon.com/128/5261/5261195.png" />
                                     <p className=''> Excelencia </p>
                                 </div>
                                 <div className='pillar'>
-                                    <img className='im-p' src={sustentabilidad}/>
-                                    <p className=''> Sustentabilidad<br/>En los Procesos </p>
+                                    <img className='im-p' src="https://cdn-icons-png.flaticon.com/128/1598/1598238.png"/>
+                                    <p className=''> Sustentabilidad<br/>en los Procesos </p>
                                 </div>
                                 <div className='pillar'>
-                                    <img className='im-p' src={impacto} />
-                                    <p className=''> Impacto <br/> SocioEconomicoAmbiental </p>
+                                    <img className='im-p' src="https://cdn-icons-png.flaticon.com/128/6786/6786441.png" />
+                                    <p className=''> Impacto <br/> Socio Economico Ambiental </p>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +178,7 @@ const BodyLandingPage = () => {
                         </div>
                         <div className='icons-container'>
                             <div className='icon-socialmedia'>
-                                <a href='https://www.linkedin.com/feed/' className="fa fa-linkedin">
+                                <a href='https://www.linkedin.com/company/energiesgreens/' className="fa fa-linkedin">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
                                 </a>
                             </div>

@@ -13,10 +13,11 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    width: 500px;
-    height: 500px;
-    background-image: url("https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    background-size: 500px 500px;
+    width: 600px;
+    height: 600px;
+    background-image: url("https://media.istockphoto.com/id/1418476287/es/foto/empresario-que-analiza-el-balance-financiero-de-la-empresa-trabajando-con-gr%C3%A1ficos-digitales.webp?b=1&s=612x612&w=0&k=20&c=W2GudfweeX4Z3sJsNtMrzaUe40e5NcOor5aHkQKm1xs=");
+    background-size: 600px 600px;
+    border-radius: 300px;
     background-repeat: no-repeat;
     cursor: pointer;
     opacity: 1;
@@ -29,10 +30,11 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    width: 500px;
-    height: 500px;
-    background-image: url("https://images.pexels.com/photos/5462683/pexels-photo-5462683.jpeg?auto=compress&cs=tinysrgb&w=1600");
-    background-size: 500px 500px;
+    width: 600px;
+    height: 600px;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/10/13/09/landscape-2055140_1280.jpg");
+    background-size: 600px 600px;
+    border-radius: 300px;
     background-repeat: no-repeat;
     cursor: pointer;
     opacity: 1;
@@ -46,10 +48,11 @@
 }
 
 .text-management {
-    font-family: Georgia, serif, Sans-serif;
+    font-family: 'poppins';
     font-size: 28px;
-    font-weight: 600;
-    letter-spacing: 6px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 90px;
     color: white;
 }
 
@@ -59,10 +62,10 @@
     height: 40px;
     border-radius: 8px;
     border: none;
-    background: #c0ea7d;
-    font-family: Georgia, serif, sans-serif;
+    background: #65A056;
+    font-family: 'poppins';
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
     color: white;
     cursor: pointer;
 }

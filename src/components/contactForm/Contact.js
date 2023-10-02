@@ -21,19 +21,19 @@ export default function Contact() {
 
     return (
         <form className='form' ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
+            <label>Nombre</label>
             <input type="text" name="user_name" />
-            <label>Company</label>
+            <label>Compañia</label>
             <input type="text" name="company_name" />
             <label>Email</label>
             <input type="email" name="user_email" />
-            <label>Phone</label>
+            <label>Teléfono</label>
             <input type="number" name="user_phone" />
-            <label>Subject</label>
+            <label>Asunto</label>
             <input type="text" name="message_subject" />
-            <label>Message</label>
+            <label>Mensaje</label>
             <textarea name="message" />
-            <input type="submit" value="Send" />
+            <input type="submit" value="Enviar" />
         </form>
     )
 }
