@@ -69,9 +69,6 @@ const EmissionPage = () => {
                             Proporcionamos asesoramiento sobre estrategias de compensación de carbono, incluyendo 
                             la inversión en proyectos para capturar o reducir emisiones y así compensar las emisiones propias.
                         </li>
-                        <li>
-                            Ofrecemos un programa de formación/capacitación en temáticas de huella de carbono.
-                        </li>
                     </ul>
                 </div>
 

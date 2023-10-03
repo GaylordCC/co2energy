@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useRoutes, } from "react-router
 import LandingPage from "../components/dashboard/LandingPage";
 import EnergyPage from "../components/energyPage/Energypage";
 import EmissionPage from "../components/emissionPage/EmissionPage";
+import TrainingPage from "../components/trainingPage/TrainingPage";
 import Contact from "../components/contactForm/Contact";
 
 
@@ -11,6 +12,7 @@ const AppRoutes = () => {
       { path: "/", element: <LandingPage /> },
       { path: "/energy", element: <EnergyPage /> },
       { path: "/emission", element: <EmissionPage /> },
+      { path: "/training", element: <TrainingPage /> },
       { path: "/contact", element: <Contact /> }
     ]);
     return routes;

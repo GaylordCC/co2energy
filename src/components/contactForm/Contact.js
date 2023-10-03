@@ -29,11 +29,11 @@ export default function Contact() {
             <input type="email" name="user_email" />
             <label>Teléfono</label>
             <input type="number" name="user_phone" />
-            <label>Asunto</label>
-            <input type="text" name="message_subject" />
+            {/* <label>Asunto</label> */}
+            {/* <input type="text" name="message_subject" /> */}
             <label>Mensaje</label>
             <textarea name="message" />
-            <input type="submit" value="Enviar" />
+            <input className='pointer' type="submit" value="Enviar" />
         </form>
     )
 }

@@ -24,27 +24,28 @@
 
 .start {
     width: 650px;
-    height: 70px;
+    height: 45px;
     border-radius: 30px;
     /* background: #17337a; */
     background: #65A056;
     font-family: 'Poppins';
     /* font-family: serif, sans-serif; */
-    font-size: 28px;
-    font-weight: 550;
-    letter-spacing: 3px;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
     color: white;
     cursor: pointer;
 }
 
 .start:hover {
     background: whitesmoke;
+    color: #0A5319;
 }
 
 .font-bar {
     font-family: 'Poppins';
     letter-spacing: 1px;
-    font-size: 28px;
+    font-size: 22px;
     color: #0A5319;
     /* color: #004aad; */
     /* color: #17337a; */

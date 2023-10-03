@@ -60,9 +60,6 @@ const EnergyPage = () => {
                         <li>
                             Evaluamos el rendimiento y la operación de los sistemas térmicos de su empresa.
                         </li>
-                        <li>
-                            Ofrecemos un programa de formación/capacitación en temáticas energéticas.
-                        </li>
                     </ul>
                 </div>
 

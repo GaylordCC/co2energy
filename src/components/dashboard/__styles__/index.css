@@ -78,34 +78,45 @@
     font-family: 'poppins';
     font-size: 30px;
     margin-bottom: 20px;
-    /* text-transform: uppercase; */
     font-size: 45px;
     font-weight: 600;
     letter-spacing: 4px;
     color: #0A5319;
-    /* color: #17337a; */
 }
 
 .content-about {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
     font-family: 'poppins';
     font-size: 20px;
+    color: #FFFFFF;
     text-align: justify;
     width: 100%;
     height: auto;
-    padding: 0px;
-    gap: 50px;
+}
+
+.content01 {
+    width: 100%;
+    height: 660px;
+    text-align: justify;
+    padding: 40px;
+    background-color: black;
+}
+
+.content02 {
+    width: 100%;
+    height: 660px;
+    text-align: justify;
+    padding: 40px;
+    background-color: rgb(173 206 108);
 }
 
 .p01 {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .p02 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .mission-vision {
@@ -115,18 +126,15 @@
     flex-direction: row;
     width: 100%;
     height: auto;
-    /* gap: 100px; */
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .mission {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 50%;
-    height: auto;
+    height: 660px;
     background-color: rgb(173 206 108);
 }
 
@@ -174,18 +182,17 @@
 }
 
 .content-mission {
+    display: flex;
+    text-align: start;
     font-family: 'poppins';
     font-size: 20px;
     text-align: justify;
     padding: 40px;
-    padding-top: 115px;
-    padding-bottom: 115px;
     color: #FFFFFF;
 }
 
 .vision {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 50%;

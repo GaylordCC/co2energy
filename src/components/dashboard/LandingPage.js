@@ -50,7 +50,7 @@ const BodyLandingPage = () => {
                             <h2 className='title-about'> Quienes Somos </h2>
                         </div>
                         <div className='content-about'>
-                            <div className=''>
+                            <div className='content01'>
                                 <p className='p01'>
                                     Somos un equipo apasionado de innovadores comprometidos con un futuro 
                                     energético sostenible. Nuestra misión es transformar la forma en que 
@@ -63,7 +63,7 @@ const BodyLandingPage = () => {
                                     renovables en la preservación del planeta.
                                 </p>
                             </div>
-                            <div className=''>
+                            <div className='content02'>
                                 <p className='p02'>
                                     Con experiencia en ingeniería y conservación del medio ambiente, 
                                     colaboramos en soluciones innovadoras para la sostenibilidad energética, 

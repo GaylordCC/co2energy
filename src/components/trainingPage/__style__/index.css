@@ -1,0 +1,97 @@
+.page-wrapped {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border: 2px solid brown;
+}
+
+.header-activity {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid rgb(87, 42, 165); */
+}
+
+.container-activity {
+    display: flex;
+    width: 70%;
+    height: auto;
+    /* border: 2px solid rgb(87, 42, 165); */
+}
+
+.text-activity {
+    font-family: Georgia, serif, Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: black;
+}
+
+.value-proposition {
+    width: 70%;
+    height: auto;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 85%;
+    height: auto;
+    gap: 40px;
+}
+
+.im-activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 600px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.text-activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+}
+
+.title-sub {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    letter-spacing: 8px;
+    color: #17337a;
+    text-align: justify;
+}
+
+.list-activities {
+    font-family: Lato, serif, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}

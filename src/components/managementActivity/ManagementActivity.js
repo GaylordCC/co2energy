@@ -12,7 +12,10 @@ const ManagementActivity = () => {
     const handleEmissionsManagement = () => {
         window.location.href = '/emission';
     }
-
+    
+    const handleTrainingManagement = () => {
+        window.location.href = '/training';
+    }
 
     return (
         <div className='service-wrapped'>
@@ -27,6 +30,13 @@ const ManagementActivity = () => {
                     <p className='text-management'> Gestión de Emisiones </p>
                     <button className='buttonmore' onClick={handleEmissionsManagement}> Ver más </button>
                 </div>
+                <div className='training-management'>
+                    {/* <img className='im-management' src={huella} /> */}
+                    <p className='text-management'> Servicios de Capacitaciones </p>
+                    <button className='buttonmore' onClick={handleTrainingManagement}> Ver más </button>
+                </div>
+
+
             </div>
         </div>
     )

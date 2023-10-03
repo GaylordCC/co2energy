@@ -5,41 +5,55 @@
     flex-direction: row;
     width: 100%;
     height: auto;
-    gap: 200px;
+    gap: 100px;
 }
 
 .energy-management {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     background-image: url("https://media.istockphoto.com/id/1418476287/es/foto/empresario-que-analiza-el-balance-financiero-de-la-empresa-trabajando-con-gr%C3%A1ficos-digitales.webp?b=1&s=612x612&w=0&k=20&c=W2GudfweeX4Z3sJsNtMrzaUe40e5NcOor5aHkQKm1xs=");
-    background-size: 600px 600px;
-    border-radius: 300px;
+    background-size: 450px 450px;
+    border-radius: 225px;
     background-repeat: no-repeat;
     cursor: pointer;
     opacity: 1;
-    gap: 120px;
-    padding-top: 50px;
+    gap: 0px;
 }
 
 .emissions-management {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     background-image: url("https://cdn.pixabay.com/photo/2017/02/10/13/09/landscape-2055140_1280.jpg");
-    background-size: 600px 600px;
-    border-radius: 300px;
+    background-size: 450px 450px;
+    border-radius: 225px;
     background-repeat: no-repeat;
     cursor: pointer;
     opacity: 1;
-    gap: 120px;
-    padding-top: 50px;
+    gap: 0px;
+}
+
+.training-management {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557399_1280.jpg");
+    background-size: 450px 450px;
+    border-radius: 225px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 1;
+    gap: 0px;
 }
 
 .im-management {
@@ -50,14 +64,13 @@
 .text-management {
     font-family: 'poppins';
     font-size: 28px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    margin-top: 90px;
+    font-weight: 700;
+    letter-spacing: 2px;
     color: white;
 }
 
 .buttonmore {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 160px;
     height: 40px;
     border-radius: 8px;
@@ -72,4 +85,6 @@
 
 .buttonmore:hover {
     background: whitesmoke;
+    color: #65A056;
+    border: 1px solid #65A056;
 }
