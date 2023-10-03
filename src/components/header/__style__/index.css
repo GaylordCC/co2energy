@@ -35,11 +35,15 @@
     letter-spacing: 1px;
     color: white;
     cursor: pointer;
+    transition: transform .2s;
 }
 
 .start:hover {
     background: whitesmoke;
     color: #0A5319;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 
 .font-bar {
@@ -47,6 +51,12 @@
     letter-spacing: 1px;
     font-size: 22px;
     color: #0A5319;
-    /* color: #004aad; */
-    /* color: #17337a; */
+    transition: transform .2s;
+}
+
+.font-bar:hover {
+    color: #0A5319;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }

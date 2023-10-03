@@ -32,7 +32,7 @@ const ManagementActivity = () => {
                 </div>
                 <div className='training-management'>
                     {/* <img className='im-management' src={huella} /> */}
-                    <p className='text-management'> Servicios de Capacitaciones </p>
+                    <p className='text-management'> Aprendizaje360 </p>
                     <button className='buttonmore' onClick={handleTrainingManagement}> Ver más </button>
                 </div>
 

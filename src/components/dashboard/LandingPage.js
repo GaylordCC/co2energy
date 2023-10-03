@@ -52,28 +52,19 @@ const BodyLandingPage = () => {
                         <div className='content-about'>
                             <div className='content01'>
                                 <p className='p01'>
-                                    Somos un equipo apasionado de innovadores comprometidos con un futuro 
-                                    energético sostenible. Nuestra misión es transformar la forma en que 
-                                    el mundo concibe, produce y consume energía. <br/>
-                                </p>
-                                <p >
-                                    Vamos más allá de la innovación tecnológica, inspirando a las personas a 
-                                    adoptar un estilo de vida sostenible mediante educación, participación 
-                                    comunitaria y ejemplos, difundiendo la importancia de las energías 
-                                    renovables en la preservación del planeta.
+                                Somos un equipo apasionado de expertos en asesoramiento energético 
+                                comprometidos con la creación de un mundo más sostenible. Nuestra 
+                                empresa se dedica a ofrecer soluciones energéticas eficiente, innovadoras 
+                                y personalizadas para empresas. Contamos con una amplia experiencia en 
+                                eficiencia energética, energías renovables y gestión responsable de recursos. <br/>
                                 </p>
                             </div>
                             <div className='content02'>
                                 <p className='p02'>
-                                    Con experiencia en ingeniería y conservación del medio ambiente, 
-                                    colaboramos en soluciones innovadoras para la sostenibilidad energética, 
-                                    creyendo en el poder de nuestras ideas para generar un cambio real. <br/>
-                                </p>
-                                <p>
-                                    En Ener-Green, nuestra pasión se refleja en cada proyecto, comprometidos con la 
-                                    excelencia, la ética y un mundo donde energía y sostenibilidad se unen para un 
-                                    cambio duradero. Construimos un legado de innovación con "Energía para Hoy, 
-                                    Sostenibilidad para Siempre".
+                                    Nos enorgullece ser un socio confiable en la búsqueda de un futuro más limpio y 
+                                    responsable desde el punto de vista energético. Nuestro compromiso es guiar a 
+                                    nuestros clientes hacia la excelencia energética, reduciendo costos y minimizando 
+                                    el impacto ambiental. <br/>
                                 </p>
                             </div>
                         </div>
@@ -84,14 +75,12 @@ const BodyLandingPage = () => {
                                     <h2 className='title-mv'> Misión </h2>
                                 </div>
                                 <p className='content-mission'>
-                                    Nuestra misión es liderar la transformación hacia un futuro energético sostenible y 
-                                    respetuoso con el medio ambiente. Nos comprometemos a brindar soluciones innovadoras
-                                    y personalizadas que promuevan la adopción masiva de energías renovables, la eficiencia 
-                                    energética y la reducción de la huella de carbono. A través de nuestra dedicación a la 
-                                    excelencia técnica y la colaboración con clientes y comunidades, aspiramos a empoderar 
-                                    a las personas y las empresas para que tomen el control de su consumo energético y 
-                                    contribuyan activamente a la creación de un mundo más limpio y sustentable para las 
-                                    generaciones futuras."
+                                    Facilitar la transición hacia un futuro energético sostenible al proporcionar a empresas soluciones 
+                                    energéticas eficiente, innovadoras y personalizadas. Nuestra misión es optimizar las decisiones sobre 
+                                    el consumo de energía, reducción de costos, minimizar la huella ambiental y promover la adopción de 
+                                    fuentes de energía limpias y renovables. Trabajamos incansablemente para empoderar a nuestros clientes, 
+                                    ayudándoles a tomar decisiones, estratégicas, informadas y responsables en un mundo en constante 
+                                    evolución en materia de energía y medio ambiente.
                                 </p>
                             </div>
                             <div className='vision'>
@@ -100,15 +89,11 @@ const BodyLandingPage = () => {
                                     <h2 className='title-mv'> Visión </h2>
                                 </div>
                                 <p className='content-vision'>
-                                    En Energies Greens SAS, visualizamos un futuro donde la energía sostenible sea la base de la sociedad 
-                                    global. Buscamos liderar la revolución energética, promoviendo el uso de energías renovables y la 
-                                    eficiencia energética para equilibrar el progreso humano y la salud del planeta. <br />
-                                    Nuestro objetivo es impulsar la transformación hacia un futuro energético sostenible, inspirando a otros 
-                                    a adoptar prácticas responsables, promoviendo la conciencia ambiental y generando soluciones que fomenten 
-                                    la eficiencia y la equidad en la distribución de energía. <br />
-                                    Trabajamos para que las generaciones presentes y futuras prosperen en un entorno impulsado por una energía limpia, 
-                                    abundante y respetuosa con el medio ambiente, mediante la implementación de tecnologías innovadoras y colaborando 
-                                    con socios, comunidades y gobiernos para construir un mañana más brillante y sostenible.
+                                    Nuestra visión es liderar la transición hacia un futuro energético sostenible. Nos esforzamos por ser reconocidos 
+                                    en la industria por nuestra excelencia en asesoramiento y soluciones energéticas eficientes y respetuosas con el 
+                                    medio ambiente. Empoderamos a empresas para tomar decisiones informadas sobre su consumo de energía, promoviendo 
+                                    renovables y la eficiencia. Trabajamos como catalizadores del cambio hacia una sociedad energéticamente responsable, 
+                                    colaborando con clientes, socios y reguladores para un mundo sostenible, beneficiando a las generaciones presentes y futuras.
                                 </p>
                             </div>
                         </div>
@@ -169,9 +154,6 @@ const BodyLandingPage = () => {
             </div>
             <div className='footer'>
                 <div className='footer-container'>
-                    <div className='company-logo'>
-                        <Logo />
-                    </div>
                     <div className='follow-us'>
                         <div className='text-footer'>
                             <span> Síguenos </span>
