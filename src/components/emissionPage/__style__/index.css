@@ -90,10 +90,13 @@
 
 .list-activities {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     font-family: 'poppins';
-    font-size: 20px;
-    text-align: justify;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
 }
 
 .services {

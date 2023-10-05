@@ -94,8 +94,18 @@
     align-items: center;
     flex-direction: column;
     font-family: 'poppins';
-    font-size: 20px;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+}
+
+.list-serveces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     text-align: justify;
+    margin-bottom: 15px;
 }
 
 .services {

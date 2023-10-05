@@ -33,23 +33,28 @@ const TrainingPage = () => {
                     <img className='im-activities' src="https://cdn.pixabay.com/photo/2016/03/26/13/09/laptop-1280536_1280.jpg" />
                 </div>
                 <div className='text-activities'>
-                    <h2 className='title-sub'> Servicios de Formación </h2>
                     <div className='list-activitie'>
+                        <h2 className='title-sub'> Servicios de Formación </h2>
                         <ul className='list-activities'>
-                            <li>
-                                Programa de formación ára preparación para auditorias en ISO 50001.
+                            <li className='list-serveces'>
+                                <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
+                                <p> Programa de formación ára preparación para auditorias en ISO 50001. </p>
                             </li>
-                            <li>
-                                Programa de formación/capacitación en temáticas de uso eficiente de la energía (USE).
+                            <li className='list-serveces'>
+                                <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
+                                <p> Programa de formación/capacitación en temáticas de uso eficiente de la energía (USE). </p>
                             </li>
-                            <li>
-                                Programa de formación/capacitación en temáticas de uso racional de la energía (URE).
+                            <li className='list-serveces'>
+                                <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
+                                <p> Programa de formación/capacitación en temáticas de uso racional de la energía (URE). </p>
                             </li>
-                            <li>
-                                Programa de formación/capacitación en temáticas de huella de carbono (HC).
+                            <li className='list-serveces'>
+                                <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
+                                <p> Programa de formación/capacitación en temáticas de huella de carbono (HC). </p>
                             </li>
-                            <li>
-                                Programa de formación/capacitación en temáticas de fuentes de energía y tecnologías renovables.
+                            <li className='list-serveces'>
+                                <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
+                                <p> Programa de formación/capacitación en temáticas de fuentes de energía y tecnologías renovables. </p>
                             </li>
                         </ul>
                     </div>

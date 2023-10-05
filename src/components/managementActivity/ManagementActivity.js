@@ -35,8 +35,6 @@ const ManagementActivity = () => {
                     <p className='text-management'> Aprendizaje360 </p>
                     <button className='buttonmore' onClick={handleTrainingManagement}> Ver más </button>
                 </div>
-
-
             </div>
         </div>
     )
