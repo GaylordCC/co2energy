@@ -65,8 +65,58 @@
 }
 
 .fa:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
+
+.fa-linkedin-in svg {
+    fill: #0e76a8;
+    transition: transform 0.3s;
+}
+
+.fa-linkedin-in:hover svg {
+    transform: scale(2.5);
+}
+
+.fa-instagram svg  {
+    display: inline-block;
+    background: radial-gradient(
+      circle at 33% 100%,
+      #fed373 4%,
+      #f15245 30%,
+      #d92e7f 62%,
+      #9b36b7 85%,
+      #515ecf
+    );
+    padding: 2px;
+    border-radius: 10%;
+    transition: transform 0.3s;
+}
+
+
+.fa-instagram:hover svg {
+    transform: scale(2.5);
+}
+
+.fa-instagram svg path {
+    fill: white;
+}
+  
+.fa-whatsapp svg {
+    fill: #25D366;
+    transition: transform 0.3s;
+}
+
+.fa-whatsapp:hover svg {
+    transform: scale(2.5);
+}
+  
+  
+
+
+
+
+
+
 
 .new-container {
     display: flex;
