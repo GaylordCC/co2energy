@@ -2,13 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: row; */
     width: 70%;
-    height: auto;
+    height: 100%;
     margin-left: 0px;
+    gap: 15px;
 }
 
 .image-logo {
-    width: 100%;
-    height: auto;
+    width: 62px;
+    height: 62px;
+}
+
+.nombre-logo {
+    width: 200px;
+    height: 90px;
 }

@@ -5,12 +5,13 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: auto;
+    height: 100px;
     background: white;
     opacity: 1;
     gap: 80px;
     /* z-index: 10000; */
 }
+
 
 .top-bar {
     display: flex;

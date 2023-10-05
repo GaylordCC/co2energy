@@ -3,6 +3,7 @@ import "./__style__/index.css";
 import BodyHeader from '../header/Header';
 import ManagementActivity from '../managementActivity/ManagementActivity';
 import ScrollIndicator from "../scrollIndicator/ScrollIndicator";
+import BodyFooter from "../footer/Footer";
 
 
 const EnergyPage = () => {
@@ -73,6 +74,9 @@ const EnergyPage = () => {
             </div>
             <div className='services'>
                 <ManagementActivity />
+            </div>
+            <div className='footer'>
+                <BodyFooter />
             </div>
         </div>
     )
