@@ -1,0 +1,63 @@
+.ods-wrapped {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.body-ods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+}
+
+.title-ods {
+    display: flex;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.title-ods h2 {
+    font-family: 'poppins';
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #0A5319;
+}
+
+.container-ods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+.container-ods-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.obs {
+    width: 330px;
+    height: 330px;
+}
+
+.obs-image {
+    width: 100%;
+    height: 100%;
+}

@@ -68,7 +68,6 @@
 
 .text-activities {
     display: flex;
-
     flex-direction: column;
     text-align: justify;
     width: 70%;

@@ -5,6 +5,7 @@ import EnergyPage from "../components/energyPage/Energypage";
 import EmissionPage from "../components/emissionPage/EmissionPage";
 import TrainingPage from "../components/trainingPage/TrainingPage";
 import Contact from "../components/contactForm/Contact";
+import OdsPage from "../components/ods/OdsPage";
 
 
 const AppRoutes = () => {
@@ -13,6 +14,7 @@ const AppRoutes = () => {
       { path: "/energy", element: <EnergyPage /> },
       { path: "/emission", element: <EmissionPage /> },
       { path: "/training", element: <TrainingPage /> },
+      { path: "/ods", element: <OdsPage /> },
       { path: "/contact", element: <Contact /> }
     ]);
     return routes;
