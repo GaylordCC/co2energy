@@ -6,6 +6,7 @@
     height: 100%;
     margin-left: 0px;
     gap: 15px;
+    cursor: pointer;
 }
 
 .image-logo {

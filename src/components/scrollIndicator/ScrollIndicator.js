@@ -4,11 +4,11 @@ import "./__style__/index.css";
 
 const ProgressContainer = styled.div`
   width: 100%;
-  height: 20px;
+  height: 15px;
   background: #ccc;
 `;
 const ProgressBar = styled.div`
-  height: 20px;
+  height: 15px;
   background: ${(props) => props.color || "#ccc"};
   width: ${(props) => props.width || 0}%;
 `;

@@ -34,6 +34,7 @@
     font-size: 21px;
     font-weight: 500;
     letter-spacing: 1px;
+    margin-right: 50px;
     color: white;
     cursor: pointer;
     transition: transform .2s;
