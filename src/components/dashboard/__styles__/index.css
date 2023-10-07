@@ -38,7 +38,6 @@
     text-align: left;
 }
 
-
 .text-message {
     font-family: 'acummin variable concept';
     font-size: 40px;
@@ -46,6 +45,24 @@
     letter-spacing: 2px;
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
+}
+
+.scroll-video {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.scroll-text {
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 24px;
+    color: white;
+    margin-top: 5px;
 }
 
 .body-wrapped {
