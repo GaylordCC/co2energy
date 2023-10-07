@@ -21,36 +21,54 @@ const BodyOds = () => {
             <div className='container-ods'>
                 <div className='container-ods-group'>
                     <div className='obs'>
-                        <a href='https://www.un.org/sustainabledevelopment/es/energy/' target="_blank">
-                            <img href="https://www.un.org/sustainabledevelopment/es/energy/" src="https://www.iberdrola.com/wcorp/gc/prod/es_ES/estaticos/ods-general/images/ico-ODS7.png" className='obs-image'/>
-                        </a>
+                        <div className='obs-7'>
+                            <a className='a-ods' href='https://www.un.org/sustainabledevelopment/es/energy/' target="_blank">
+                                <div className='font-ods'> ODS 7 </div>
+                                <div className='font-ods-content'> ENERGIA ASEQIBLE Y NO CONTAMINANTE </div>
+                            </a>
+                        </div>
                     </div>
                     <div className='obs'>
-                        <a href='https://www.un.org/sustainabledevelopment/es/economic-growth/' target="_blank">
-                            <img src="https://www.iberdrola.com/wcorp/gc/prod/es_ES/estaticos/ods-general/images/ico-ODS8.png" className='obs-image'/>
-                        </a>
+                        <div className='obs-8'>
+                            <a className='a-ods' href='https://www.un.org/sustainabledevelopment/es/economic-growth/' target="_blank">
+                                <div className='font-ods'> ODS 8 </div>
+                                <div className='font-ods-content'> TRABAJO DECENTE Y CRECIMIENTO ECONOMICO </div>
+                            </a>
+                        </div>
                     </div>
                     <div className='obs'>
-                        <a href='https://www.un.org/sustainabledevelopment/es/infrastructure/' target="_blank">
-                            <img src="https://www.iberdrola.com/wcorp/gc/prod/es_ES/estaticos/ods-general/images/ico-ODS9.png" className='obs-image'/>
-                        </a>
+                        <div className='obs-9'>
+                            <a className='a-ods' href='https://www.un.org/sustainabledevelopment/es/infrastructure/' target="_blank">
+                                <div className='font-ods'> ODS 9 </div>
+                                <div className='font-ods-content'> INDUSTRIA, INNOVACION E INFRAESTRUCTURAS </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='container-ods-group'>
                     <div className='obs'>
-                        <a href='https://www.un.org/sustainabledevelopment/es/cities/' target="_blank">
-                            <img src="https://www.iberdrola.com/wcorp/gc/prod/es_ES/estaticos/ods-general/images/ico-ODS11.png" className='obs-image'/>
-                        </a>
+                        <div className='obs-11'>
+                            <a className='a-ods' href='https://www.un.org/sustainabledevelopment/es/cities/' target="_blank">
+                                <div className='font-ods'> ODS 11 </div>
+                                <div className='font-ods-content'> INDUSTRIA, INNOVACION E INFRAESTRUCTURAS </div>
+                            </a>
+                        </div>
                     </div>
                     <div className='obs'>
-                        <a href='https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/' target="_blank">
-                            <img src="https://www.iberdrola.com/wcorp/gc/prod/es_ES/estaticos/ods-general/images/ico-ODS12.png" className='obs-image'/>
-                        </a>
+                        <div className='obs-12'>
+                            <a className='a-ods' href='https://www.un.org/sustainabledevelopment/es/sustainable-consumption-production/' target="_blank">
+                                <div className='font-ods'> ODS 12 </div>
+                                <div className='font-ods-content'> PRODUCCION Y CONSUMO RESPONSABLE </div>
+                            </a>
+                        </div>
                     </div>
                     <div className='obs'>
-                        <a href='https://www.un.org/sustainabledevelopment/es/climate-change-2/' target="_blank">
-                            <img src="https://www.iberdrola.com/wcorp/gc/prod/es_ES/estaticos/ods-general/images/ico-ODS13.png" className='obs-image'/>
-                        </a>
+                        <div className='obs-13'>
+                            <a className='a-ods' href='https://www.un.org/sustainabledevelopment/es/climate-change-2/' target="_blank">
+                                <div className='font-ods'> ODS 13 </div>
+                                <div className='font-ods-content'> ACCION POR EL CLIMA </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
