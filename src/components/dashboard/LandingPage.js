@@ -83,9 +83,9 @@ const BodyLandingPage = () => {
                                 <p className='content-mission'>
                                     Facilitar la transición hacia un futuro energético sostenible al proporcionar a empresas soluciones 
                                     energéticas eficiente, innovadoras y personalizadas. Nuestra misión es optimizar las decisiones sobre 
-                                    el consumo de energía, reducción de costos, minimizar la huella ambiental y promover la adopción de 
-                                    fuentes de energía limpias y renovables. Trabajamos incansablemente para empoderar a nuestros clientes, 
-                                    ayudándoles a tomar decisiones, estratégicas, informadas y responsables en un mundo en constante 
+                                    el consumo de energía, reducción de costos, minimizar la huella de carbono y promover la adopción de 
+                                    fuentes de energía y tecnologías renovables. Trabajamos incansablemente para empoderar a nuestros clientes, 
+                                    ayudándoles a tomar decisiones estratégicas, informadas y responsables en un mundo en constante 
                                     evolución en materia de energía y medio ambiente.
                                 </p>
                             </div>
@@ -95,11 +95,12 @@ const BodyLandingPage = () => {
                                     <h2 className='title-mv'> Visión </h2>
                                 </div>
                                 <p className='content-vision'>
-                                    Nuestra visión es liderar la transición hacia un futuro energético sostenible. Nos esforzamos por ser reconocidos 
-                                    en la industria por nuestra excelencia en asesoramiento y soluciones energéticas eficientes y respetuosas con el 
-                                    medio ambiente. Empoderamos a empresas para tomar decisiones informadas sobre su consumo de energía, promoviendo 
-                                    renovables y la eficiencia. Trabajamos como catalizadores del cambio hacia una sociedad energéticamente responsable, 
-                                    colaborando con clientes, socios y reguladores para un mundo sostenible, beneficiando a las generaciones presentes y futuras.
+                                    Nuestra visión es liderar la transición hacia un futuro energético sostenible. Nos esforzamos por ser 
+                                    reconocidos en la industria por nuestra excelencia en asesoramiento y soluciones energéticas eficientes y 
+                                    respetuosas con el medio ambiente. Empoderamos a empresas para tomar decisiones informadas sobre su consumo 
+                                    de energía, promoviendo energías renovables y la eficiencia energética. Trabajamos como catalizadores del 
+                                    cambio hacia una sociedad energéticamente responsable, colaborando con clientes, socios y reguladores para 
+                                    un mundo sostenible, beneficiando a las generaciones presentes y futuras.
                                 </p>
                             </div>
                         </div>
