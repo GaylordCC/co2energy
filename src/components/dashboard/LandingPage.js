@@ -10,6 +10,7 @@ import ScrollIndicator from "../scrollIndicator/ScrollIndicator";
 import Typewriter from "../typewriter/Typewriter";
 import BodyDot from "../carousel/Dot";
 import BodyFooter from "../footer/Footer";
+import imlogo from "./__styles__/images/imlogo.png";
 
 
 
@@ -154,10 +155,15 @@ const BodyLandingPage = () => {
                 </a>
             </div>
             <div className='contact'>
-                <a id='Cont'>
-                    <Banner />
-                    <Contact />
-                </a>
+                <div className='img-contactform'>
+                    <img className='i-contact' src={imlogo} ></img>
+                </div>
+                <div className='content-contacform'>
+                    <a id='Cont'>
+                        <Banner />
+                        <Contact />
+                    </a>
+                </div>
             </div>
             <div className='footer'>
                 <BodyFooter />

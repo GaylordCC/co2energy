@@ -16,7 +16,7 @@ const BodyOds = () => {
         </div>
         <div className='body-ods'>
             <div className='title-ods'>
-                <h2> En Energies Greens estamos comprometidos para logra los objetivos de desarrollo sostenible (ODS) establecidos en la agenda de la ONU para el año 2030. </h2>
+                <h2> En Energies Greens estamos comprometidos para logra los objetivos de desarrollo sostenible (ODS) establecidos en la agenda de la ONU para el año 2030 </h2>
             </div>
             <div className='container-ods'>
                 <div className='container-ods-group'>

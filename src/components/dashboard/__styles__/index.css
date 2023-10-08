@@ -338,10 +338,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    flex-direction: row;
+    width: 90%;
     margin-bottom: 80px;
+    gap: 50px;
 }
 
+.img-contactform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+}
+
+.i-contact {
+    width: 90%;
+    height: auto;
+}
+
+.content-contacform {
+    width: 100%;
+    height: auto;
+}
 
 .footer {
     width: 100%;

@@ -38,7 +38,7 @@ const TrainingPage = () => {
                         <ul className='list-activities'>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
-                                <p> Programa de formación ára preparación para auditorias en ISO 50001. </p>
+                                <p> Programa de formación para preparación de auditorias en ISO 50001. </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
