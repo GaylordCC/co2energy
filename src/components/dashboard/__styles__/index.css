@@ -29,22 +29,23 @@
 
 .message-container {
     position: absolute;
-    top: 44%;
+    top: 50%;
     left: 15%;
     /* background-color: rgba(0, 0, 0, 0.5); */
     transform: translate(-30%, -40%);
     padding: 10px;
-    width: 40%;
+    width: 43%;
     text-align: left;
 }
 
 .text-message {
     font-family: 'acummin variable concept';
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 900;
     letter-spacing: 2px;
     color: rgba(255, 255, 255, 1);
-    text-transform: uppercase;
+    line-height: 50px;
+    /* text-transform: uppercase; */
 }
 
 .scroll-video {
