@@ -13,7 +13,6 @@ const BodyHeader = () => {
     }
 
     useEffect(() => {
-        // Hacer scroll a la sección deseada (por ejemplo, "seccion2")
         const hash = window.location.hash;
         console.log(hash)
         if (hash) {
