@@ -39,54 +39,46 @@ const EnergyPage = () => {
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p> 
-                                    Implementamos estrategias para promover la reducción de emisiones de 
-                                    carbono, la descentralización de la energía y la digitalización en el ámbito energético.
+                                    Proporcionamos asesoramiento para impulsar la reducción de emisiones de carbono, la 
+                                    descentralización de la energía y la digitalización en el sector energético.
                                 </p>
                                 
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Mejoramos la durabilidad de los activos relacionados con la producción mediante planes 
-                                    de mantenimiento centrados en la eficiencia energética.
+                                    Gestionamos las actividades de producción a través de planes de mantenimiento 
+                                    enfocados en la eficiencia energética.
                                 </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Aplicamos programas de eficiencia energética conforme a las normativas ISO 50.001, 
-                                    ISO 50.002 e ISO 14.067, con el objetivo de reducir los costos energéticos y minimizar 
-                                    la huella de carbono.
+                                    Implementamos programas de eficiencia energética en cumplimiento con las normativas 
+                                    ISO 50.001, ISO 50.002, ISO 14.064 y ISO 14.067, con el objetivo de reducir los costos 
+                                    energéticos y minimizar la huella de carbono.
                                 </p>
 
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>  
-                                    Brindamos asesoramiento para reemplazar combustibles fósiles por opciones respetuosas 
-                                    con el medioambiente.
+                                    Ofrecemos consultoría para la sustitución de combustibles fósiles por alternativas 
+                                    respetuosas con el medio ambiente.
                                 </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Diseñamos soluciones de Autogeneración y Cogeneración energética adaptadas a las 
-                                    necesidades específicas de nuestros clientes.
+                                    Realizamos evaluaciones de fuentes de energía renovable, como solar, eólica, de concentración, 
+                                    sistemas de calentamiento de agua, residuos sólidos urbanos, biomasa y otras fuentes, para 
+                                    analizar su viabilidad en la integración con los procesos de tu empresa.
                                 </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Realizamos evaluaciones de fuentes de energía renovable, como la energía solar, 
-                                    eólica, de concentración, sistemas de calentamiento de agua, 
-                                    residuos sólidos urbanos, biomasa y otras fuentes, analizando su viabilidad en 
-                                    la integración con los procesos de su empresa.
-                                </p>
-                            </li>
-                            <li className='list-serveces'>
-                                <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
-                                <p>
-                                    Evaluamos el rendimiento y la operación de los sistemas térmicos de su empresa.
+                                    Evaluamos el riesgo de proyectos financieros con un enfoque en la eficiencia energética.
                                 </p>
                             </li>
                         </ul>
