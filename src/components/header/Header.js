@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./__style__/index.css";
 import Logo from "../logo/Logo";
 
@@ -11,6 +11,18 @@ const BodyHeader = () => {
     const handleOds = () => {
         window.location.href = '/ods';
     }
+
+    useEffect(() => {
+        // Hacer scroll a la sección deseada (por ejemplo, "seccion2")
+        const hash = window.location.hash;
+        console.log(hash)
+        if (hash) {
+            const section = document.getElementById(hash.slice(1));
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, []);
 
     return (
         <div className='header'>

@@ -44,9 +44,9 @@
 .start:hover {
     background: #65A056;
     color: #FFFFFF;
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5); 
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
 }
 
 .font-bar {
@@ -67,7 +67,7 @@
 .font-bar:hover {
     background: #65A056;
     color: #FFFFFF;
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5); 
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
 }
