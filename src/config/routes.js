@@ -22,7 +22,7 @@ const AppRoutes = () => {
   
   const RoutesPages = () => {
     return (
-      <Router basename={process.env.REACT_APP_URI}>
+      <Router>
         <AppRoutes />
       </Router>
     );
