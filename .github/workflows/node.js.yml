@@ -28,11 +28,12 @@ jobs:
         cache: 'npm'
     # - run: npm ci
     - run: npm install create-react-app --no-cache
-    - run: NODE_ENV=production npm install react-scripts --no-cache
+    - run: npm install react-scripts --no-cache
     - run: npm install @babel/plugin-proposal-private-property-in-object --no-cache
     - run: npm install --no-cache
     - run: npm run build --no-cache
-    #- run: npm test
+      env:
+        NODE_ENV: production
 
 
     - name: Deploy with gh-pages
@@ -40,4 +41,5 @@ jobs:
         git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         npm run deploy
       env:
+        NODE_ENV: production
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
