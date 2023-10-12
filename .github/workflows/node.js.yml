@@ -29,6 +29,7 @@ jobs:
     # - run: npm ci
     - run: npm install create-react-app --no-cache
     - run: npm install react-scripts --no-cache
+    - run: npm install babel-preset-react-app --no-cache
     - run: npm install --no-cache
     - run: npm run build --no-cache
     #- run: npm test
