@@ -27,10 +27,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     # - run: npm ci
-    - run: npm install create-react-app
-    - run: npm install react-scripts
-    - run: npm install
-    - run: npm run build
+    - run: npm install create-react-app --no-cache
+    - run: npm install react-scripts --no-cache
+    - run: npm install --no-cache
+    - run: npm run build --no-cache
     #- run: npm test
 
 
