@@ -55,7 +55,7 @@ const BodyLandingPage = () => {
                 <div className='aboutus'>
                     <a id="AU" onClick={handleClick} ref={ref}>
                         <div className='title-about'>
-                            <h2 className='title-about'> Quienes Somos </h2>
+                            <h2 className=''> Quienes Somos </h2>
                         </div>
                         <div className='content-about'>
                             <div className='content01'>
@@ -93,7 +93,7 @@ const BodyLandingPage = () => {
                             </div>
                             <div className='vision'>
                                 <div className='im-tex-mv'>
-                                    <img className='img-mv' src="https://cdn-icons-png.flaticon.com/128/5148/5148946.png" />
+                                    <img className='img-mv white-img' src="https://cdn-icons-png.flaticon.com/128/5148/5148946.png" />
                                     <h2 className='title-mv'> Visión </h2>
                                 </div>
                                 <p className='content-vision'>
