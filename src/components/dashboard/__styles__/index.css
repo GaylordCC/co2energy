@@ -44,6 +44,9 @@
     padding: 10px;
     width: 43%;
     text-align: left;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
 }
 
 .text-message {
@@ -64,6 +67,24 @@
     width: auto;
     height: auto;
     cursor: pointer;
+    @media screen and (max-width: 700px) {
+        position: absolute;
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+}
+
+.svg-icon {
+    width: 100px;
+    height: 100px;
+    @media screen and (max-width: 700px) {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .scroll-text {
@@ -72,6 +93,10 @@
     font-size: 24px;
     color: white;
     margin-top: 5px;
+    @media screen and (max-width: 700px) {
+        font-size: 16px;
+        margin-top: 1px;
+    }
 }
 
 .body-wrapped {
@@ -115,6 +140,16 @@
     font-weight: normal;
     margin-top: 80px;
     margin-bottom: 80px;
+    @media screen and (max-width: 700px) {
+        width: 90%;
+        font-family: georgia;
+        font-size: 40px;
+        letter-spacing: 4px;
+        line-height: 70px;
+        font-weight: normal;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 .aboutus {
@@ -151,6 +186,12 @@
     text-align: justify;
     width: 100%;
     height: auto;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .content01 {
@@ -163,6 +204,10 @@
     text-align: justify;
     padding: 40px;
     background-color: black;
+    @media screen and (max-width: 700px) {
+        width: 80%;
+        height: 800px;
+    }
 }
 
 .content02 {
@@ -175,6 +220,10 @@
     text-align: justify;
     padding: 40px;
     background-color: rgb(173 206 108);
+    @media screen and (max-width: 700px) {
+        width: 80%;
+        height: 800px;
+    }
 }
 
 .mission-vision {
@@ -185,6 +234,10 @@
     width: 100%;
     height: auto;
     margin-bottom: 50px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .mission {
@@ -194,6 +247,10 @@
     width: 50%;
     height: 480px;
     background-color: rgb(173 206 108);
+    @media screen and (max-width: 700px) {
+        width: 80%;
+        height: 1500px;
+    }
 }
 
 .title-mv {
@@ -260,6 +317,10 @@
     width: 50%;
     height: 480px;
     background-color: #000000;
+    @media screen and (max-width: 700px) {
+        width: 80%;
+        height: 1500px;
+    }
 }
 
 .content-vision {
@@ -284,6 +345,13 @@
     align-items: center;
     flex-direction: row;
     gap: 160px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 .value {
@@ -367,6 +435,9 @@
     align-items: center;
     width: 90%;
     height: auto;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
 }
 
 .i-contact {

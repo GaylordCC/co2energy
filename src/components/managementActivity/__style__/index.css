@@ -6,6 +6,12 @@
     width: 100%;
     height: auto;
     gap: 100px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .energy-management {
@@ -22,6 +28,21 @@
     cursor: pointer;
     opacity: 1;
     gap: 0px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+        height: 350px;
+        background-image: url("https://media.istockphoto.com/id/1418476287/es/foto/empresario-que-analiza-el-balance-financiero-de-la-empresa-trabajando-con-gr%C3%A1ficos-digitales.webp?b=1&s=612x612&w=0&k=20&c=W2GudfweeX4Z3sJsNtMrzaUe40e5NcOor5aHkQKm1xs=");
+        background-size: 350px 350px;
+        border-radius: 175px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        opacity: 1;
+        gap: 0px;
+    }
 }
 
 .emissions-management {
@@ -38,6 +59,21 @@
     cursor: pointer;
     opacity: 1;
     gap: 0px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+        height: 350px;
+        background-image: url("https://cdn.pixabay.com/photo/2017/02/10/13/09/landscape-2055140_1280.jpg");
+        background-size: 350px 350px;
+        border-radius: 175px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        opacity: 1;
+        gap: 0px;
+    }
 }
 
 .training-management {
@@ -54,6 +90,21 @@
     cursor: pointer;
     opacity: 1;
     gap: 0px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+        height: 350px;
+        background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/laptop-1280536_1280.jpg");
+        background-size: 350px 350px;
+        border-radius: 175px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        opacity: 1;
+        gap: 0px;
+    }
 }
 
 .im-management {
