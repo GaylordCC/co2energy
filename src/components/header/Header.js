@@ -42,7 +42,7 @@ const BodyHeader = () => {
                     </svg>
                 </i>
             </button>
-            <div className={`top-bar ${showNavbar ? 'hidden' : ''}`}>
+            <div className={`top-bar ${showNavbar ? 'active' : ''}`}>
                 <button className='start' onClick={handleGoStart}> Inicio </button>
                 <div className='AboutUs' onClick={() => window.location.replace("/#AU")}>
                     <h4 className='font-bar'><span> Nosotros </span></h4>
