@@ -22,7 +22,6 @@ const BodyLandingPage = () => {
       ref.current?.scrollIntoView({behavior: 'smooth'});
     };
 
-
     return (
         <div className='main-wrapped'>
             <div className='scrollbar'>
