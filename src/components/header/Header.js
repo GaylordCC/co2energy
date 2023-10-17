@@ -30,13 +30,16 @@ const BodyHeader = () => {
     }
 
     const handleAbutUs = () => {
+        setShowNavbarMobile(false);
         window.location.replace("/#AU");
     }
 
     const handleService = () => {
+        setShowNavbarMobile(false);
         window.location.replace("/#Serv");
     }
     const handleContact = () => {
+        setShowNavbarMobile(false);
         window.location.replace("/#Cont");
     }
 
