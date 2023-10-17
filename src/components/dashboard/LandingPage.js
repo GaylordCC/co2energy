@@ -22,7 +22,6 @@ const BodyLandingPage = () => {
       ref.current?.scrollIntoView({behavior: 'smooth'});
     };
 
-
     return (
         <div className='main-wrapped'>
             <div className='scrollbar'>
@@ -40,7 +39,7 @@ const BodyLandingPage = () => {
                     </h2>
                 </div>
                 <div className='scroll-video' onClick={() => window.location.replace("/#AU")}>
-                    <svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="svg-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z" stroke="white" stroke-width="0.4"/>
                         <path d="M9 8.5L12 11.5L15 8.5" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M9 12.5L12 15.5L15 12.5" stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
@@ -55,7 +54,7 @@ const BodyLandingPage = () => {
                 <div className='aboutus'>
                     <a id="AU" onClick={handleClick} ref={ref}>
                         <div className='title-about'>
-                            <h2 className='title-about'> Quienes Somos </h2>
+                            <h2 className=''> Quienes Somos </h2>
                         </div>
                         <div className='content-about'>
                             <div className='content01'>
@@ -93,7 +92,7 @@ const BodyLandingPage = () => {
                             </div>
                             <div className='vision'>
                                 <div className='im-tex-mv'>
-                                    <img className='img-mv' src="https://cdn-icons-png.flaticon.com/128/5148/5148946.png" />
+                                    <img className='img-mv white-img' src="https://cdn-icons-png.flaticon.com/128/5148/5148946.png" />
                                     <h2 className='title-mv'> Visión </h2>
                                 </div>
                                 <p className='content-vision'>

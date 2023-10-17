@@ -6,14 +6,21 @@
     width: 100%;
     height: auto;
     background: white;
-    /* border: 4px solid rgb(206, 114, 80); */
 }
 
 .scrollbar {
     display: flex;
-    position: fixed;
-    top: 0px;
     width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 15px;
 }
 
 .animation-wrapped {
@@ -25,6 +32,7 @@
 .video-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .message-container {
@@ -36,6 +44,9 @@
     padding: 10px;
     width: 43%;
     text-align: left;
+    @media screen and (max-width: 912px) {
+        display: none;
+    }
 }
 
 .text-message {
@@ -56,6 +67,24 @@
     width: auto;
     height: auto;
     cursor: pointer;
+    @media screen and (max-width: 912px) {
+        position: absolute;
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+}
+
+.svg-icon {
+    width: 100px;
+    height: 100px;
+    @media screen and (max-width: 700px) {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .scroll-text {
@@ -64,6 +93,10 @@
     font-size: 24px;
     color: white;
     margin-top: 5px;
+    @media screen and (max-width: 700px) {
+        font-size: 16px;
+        margin-top: 1px;
+    }
 }
 
 .body-wrapped {
@@ -71,10 +104,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1200px;
+    width: 80%;
     height: auto;
     margin-bottom: 60px;
     /* border: 2px solid blue; */
+    @media(max-width: 700px) {
+        width: 100%;
+    }
 }
 
 .auxlem {
@@ -107,6 +143,16 @@
     font-weight: normal;
     margin-top: 80px;
     margin-bottom: 80px;
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        font-family: georgia;
+        font-size: 40px;
+        letter-spacing: 4px;
+        line-height: 70px;
+        font-weight: normal;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 .aboutus {
@@ -119,6 +165,10 @@
 }
 
 .title-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     font-family: 'poppins';
     font-size: 30px;
     margin-bottom: 20px;
@@ -126,6 +176,8 @@
     font-weight: 600;
     letter-spacing: 4px;
     color: #0A5319;
+    width: 100%;
+    height: auto;
 }
 
 .content-about {
@@ -137,36 +189,52 @@
     text-align: justify;
     width: 100%;
     height: auto;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .content01 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 480px;
     text-align: justify;
     padding: 40px;
     background-color: black;
+    @media screen and (max-width: 912px) {
+        width: 100%;
+        height: 600px;
+    }
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        height: 500px;
+    }
 }
 
 .content02 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 500px;
+    width: 50%;
+    height: 480px;
     text-align: justify;
     padding: 40px;
     background-color: rgb(173 206 108);
-}
-
-.p01 {
-    margin-bottom: 40px;
-}
-
-.p02 {
-    margin-bottom: 40px;
+    @media screen and (max-width: 912px) {
+        width: 100%;
+        height: 600px;
+    }
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        height: 500px;
+    }
 }
 
 .mission-vision {
@@ -177,6 +245,10 @@
     width: 100%;
     height: auto;
     margin-bottom: 50px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .mission {
@@ -184,8 +256,16 @@
     align-items: center;
     flex-direction: column;
     width: 50%;
-    height: auto;
+    height: 480px;
     background-color: rgb(173 206 108);
+    @media screen and (max-width: 912px) {
+        width: 100%;
+        height: 900px;
+    }
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        height: 800px;
+    }
 }
 
 .title-mv {
@@ -208,6 +288,10 @@
 .img-mv {
     width: 70px;
     height: 70px;
+}
+
+.white-img {
+    filter: invert(100%);
 }
 
 .title-sub {
@@ -237,7 +321,7 @@
     font-family: 'poppins';
     font-size: 20px;
     text-align: justify;
-    padding: 40px;
+    padding: 55px;
     color: #FFFFFF;
 }
 
@@ -246,8 +330,16 @@
     align-items: center;
     flex-direction: column;
     width: 50%;
-    height: auto;
+    height: 480px;
     background-color: #000000;
+    @media screen and (max-width: 912px) {
+        width: 100%;
+        height: 900px;
+    }
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        height: 800px;
+    }
 }
 
 .content-vision {
@@ -263,6 +355,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .list-vp {
@@ -271,6 +364,13 @@
     align-items: center;
     flex-direction: row;
     gap: 160px;
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 .value {
@@ -296,6 +396,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .pillar {
@@ -329,10 +430,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-bottom: 200px;
     /* border: 2px solid rgb(206, 7, 173); */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .contact {
@@ -351,6 +454,9 @@
     align-items: center;
     width: 90%;
     height: auto;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
 }
 
 .i-contact {

@@ -1,17 +1,91 @@
 .header {
     display: flex;
-    position: sticky;
-    top: 15px;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
+    height: auto;
     background: white;
     opacity: 1;
-    gap: 80px;
+    gap: 0px;
     z-index: 99;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    @media(max-width: 912px){
+        margin-bottom: 20px;
+    }
+    @media(max-width: 700px){
+        margin-bottom: 8px;
+    }
 }
 
+.header.active {
+    height: none;
+    overflow: hidden;
+    background: transparent;
+}
+
+.header.active .top-bar {
+    width: 35%;
+    visibility: visible;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.logo-name{
+    display: flex;
+    width: 40%;
+    @media (max-width: 912px){
+        display: none;
+    }
+}
+
+.menu-bars {
+    width: 30px;
+    height: 30px;
+    @media (max-width: 912px){
+        position: fixed;
+        right: 15px;
+        top: 30px;
+        width: 60px;
+        height: 60px;
+    }
+    @media (max-width: 700px){
+        position: fixed;
+        right: 15px;
+        top: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 912px){
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+      float: right;
+    }
+  
+    .top-bar {
+        position: fixed;
+        right: 0;
+        top: 50px;
+        background-color: rgb(101, 160, 86, 0.5);
+        width: 0;
+        height: calc(100vh - 60px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+        z-index: 1000;
+    }
+}
+
+.top-bar.active {
+    display: flex; /* Show the top bar when active */
+    visibility: visible;
+    background-color: rgb(101, 160, 86, 0.5);
+}
 
 .top-bar {
     display: flex;
@@ -20,10 +94,20 @@
     margin: auto;
     flex-direction: row;
     gap: 10px;
-    margin-right: 100px;
-    width: 55%;
+    margin-right: 60px;
+    width: 60%;
     height: auto;
     gap: 30px;
+    @media(max-width: 912px){
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 50px;
+        width: 35%;
+        height: auto;
+        z-index: 100;
+        visibility: hidden; /* Initially hidden */
+    }
 }
 
 .start {
@@ -39,6 +123,9 @@
     color: #0A5319;
     cursor: pointer;
     transition: transform .2s;
+    @media (max-width: 912px){
+        color: #FFFFFF;
+    }
 }
 
 .start:hover {
@@ -62,6 +149,9 @@
     width: 165px;
     height: 45px;
     border-radius: 30px;
+    @media (max-width: 912px){
+        color: #FFFFFF;
+    }
 }
 
 .font-bar:hover {
