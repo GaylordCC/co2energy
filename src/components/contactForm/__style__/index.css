@@ -8,13 +8,6 @@
     width: 500px;
     font-family: 'poppins';
     font-size: 20px;
-    @media screen and (max-width: 700px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 250px;
-    }
 }
 
 input {
@@ -65,4 +58,24 @@ input[type="submit"] {
     background: whitesmoke;
     color: #65A056;
     border: 1px solid #65A056;
+}
+
+@media (max-width: 642px) {
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 220px;
+    }
+}
+
+@media (max-width: 912px) {
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 250px;
+    }
 }

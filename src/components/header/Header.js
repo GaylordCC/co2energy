@@ -4,6 +4,8 @@ import Logo from "../logo/Logo";
 
 
 const BodyHeader = () => {
+    const [showNavbarMobile, setShowNavbarMobile] = useState(false);
+
     const handleGoStart = () => {
         window.location.href = '/';
     }
@@ -23,12 +25,21 @@ const BodyHeader = () => {
         }
     }, []);
 
-
-    const [showNavbar, setShowNavbar] = useState(false);
-
     const handleShowNavbar = () => {
-      setShowNavbar(!showNavbar);
+      setShowNavbarMobile(!showNavbarMobile);
     }
+
+    const handleAbutUs = () => {
+        window.location.replace("/#AU");
+    }
+
+    const handleService = () => {
+        window.location.replace("/#Serv");
+    }
+    const handleContact = () => {
+        window.location.replace("/#Cont");
+    }
+
 
     return (
         <div className='header'>
@@ -42,21 +53,42 @@ const BodyHeader = () => {
                     </svg>
                 </i>
             </button>
-            <div className={`top-bar ${showNavbar ? 'active' : ''}`}>
-                <button className='start' onClick={handleGoStart}> Inicio </button>
-                <div className='AboutUs' onClick={() => window.location.replace("/#AU")}>
-                    <h4 className='font-bar'><span> Nosotros </span></h4>
+            { showNavbarMobile && (
+                <div  onFocus={()=> setShowNavbarMobile(false)} className='top-bar-mobile'>
+                    <div  className='start' onClick={handleGoStart}> Inicio </div>
+                    <div className='AboutUs' onClick={handleAbutUs}>
+                        <h4 className='font-bar'><span> Nosotros </span></h4>
+                    </div>
+                    <div className='Services' onClick={handleService}>
+                        <h4 className='font-bar'><span> Servicios </span></h4>
+                    </div>
+                    <div className='ods' onClick={handleOds}>
+                        <h4 className='font-bar'><span> ODS </span></h4>
+                    </div>
+                    <div className='Contact' onClick={handleContact}>
+                        <h4 className='font-bar'><span> Contactanos </span></h4>
+                    </div>
                 </div>
-                <div className='Services' onClick={() => window.location.replace("/#Serv")}>
-                    <h4 className='font-bar'><span> Servicios </span></h4>
-                </div>
-                <div className='ods' onClick={handleOds}>
-                    <h4 className='font-bar'><span> ODS </span></h4>
-                </div>
-                <div className='Contact' onClick={() => window.location.replace("/#Cont")}>
-                    <h4 className='font-bar'><span> Contactanos </span></h4>
-                </div>
-            </div>
+            )}
+
+            { showNavbarMobile == false && (
+                <div id ="menu-items" className='top-bar-desktop'>
+                    <div className='start start-hover' onClick={handleGoStart}> Inicio </div>
+                    <div className='AboutUs' onClick={handleAbutUs}>
+                        <h4 className='font-bar'><span> Nosotros </span></h4>
+                    </div>
+                    <div className='Services' onClick={handleService}>
+                        <h4 className='font-bar'><span> Servicios </span></h4>
+                    </div>
+                    <div className='ods' onClick={handleOds}>
+                        <h4 className='font-bar'><span> ODS </span></h4>
+                    </div>
+                    <div className='Contact' onClick={handleContact}>
+                        <h4 className='font-bar'><span> Contactanos </span></h4>
+                    </div>
+                </div>   
+            ) }
+           
         </div>
     )
 }
