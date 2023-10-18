@@ -126,7 +126,10 @@
     }
 
     .logo-name {
-        display: none;
+        /* display: none; */
+        margin-left: 50px;
+        margin-top: 5px;
+        width: 80px;
     }
 
     .menu-bars {
@@ -165,7 +168,10 @@
     }
 
     .logo-name {
-        display: none;
+        /* display: none; */
+        margin-left: 50px;
+        margin-top: 5px;
+        width: 200px;
     }
 
     .menu-bars {
