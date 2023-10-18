@@ -10,16 +10,53 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
   
-        emailjs.sendForm('service_1fs0vwv', 'template_pcsyv6r', e.target, '93S_coT7nBbX8AcQ8')
-        .then((result) => {
-            setMessage('Mensaje enviado con éxito');
-            form.current.reset();
-            console.log(result.text);
-            console.log("message sent");
-        }, (error) => {
-            setMessage('Error al enviar el mensaje');
-            console.log(error.text);
-        });
+        if (validateForm()) { 
+            emailjs.sendForm('service_1fs0vwv', 'template_pcsyv6r', e.target, '93S_coT7nBbX8AcQ8')
+            .then((result) => {
+                setMessage('Mensaje enviado con éxito');
+                form.current.reset();
+                console.log(result.text);
+                console.log("message sent");
+            }, (error) => {
+                setMessage('Error al enviar el mensaje');
+                console.log(error.text);
+            });
+        }
+    };
+
+    const validateForm = () => {
+        const name = form.current.user_name.value;
+        const company = form.current.company_name.value;
+        const email = form.current.user_email.value;
+        const phone = form.current.user_phone.value;
+        const message = form.current.message.value;
+
+        if (!name || !company || !email || !phone || !message) {
+          setMessage('Por favor, completa todos los campos.');
+          return false;
+        }
+    
+        if (!/^[A-Za-z\s]+$/.test(name)) {
+          setMessage('Nombre solo debe contener letras y espacios.');
+          return false;
+        }
+    
+        if (!/^[A-Za-z\s]+$/.test(company)) {
+          setMessage('Compañía solo debe contener letras y espacios.');
+          return false;
+        }
+    
+        if (!/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/.test(email)) {
+          setMessage('Correo electrónico no válido.');
+          return false;
+        }
+    
+        if (!/^\d+$/.test(phone)) {
+          setMessage('Teléfono solo debe contener números.');
+          return false;
+        }
+    
+        return true;
     };
 
 
