@@ -17,6 +17,39 @@
     cursor: pointer;
 }
 
+.nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    width: 28px;
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+}
+
+.nav-toggle .bar {
+    height: 4px;
+    width: 100%;
+    background-color: #0A5319;
+    transition: all 100ms ease-in-out;
+}
+
+.nav-toggle.x .bar:nth-of-type(1) {
+    transform: rotate(45deg);
+    transform-origin: top left;
+    width: 28px;
+}
+
+.nav-toggle.x .bar:nth-of-type(2) {
+    opacity: 0;
+}
+
+.nav-toggle.x .bar:nth-of-type(3) {
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+    width: 28px;
+}
+
 .logo-name{
     display: flex;
     width: 40%;
@@ -100,7 +133,6 @@
     padding-bottom: 30px;
 }
 
-
 .top-bar-desktop {
     width: 0;
     height: calc(100vh - 60px);
@@ -132,6 +164,12 @@
         width: 80px;
     }
 
+    .nav-toggle {
+        position: fixed;
+        right: 25px;
+        top: 40px;
+    }
+    
     .menu-bars {
         position: fixed;
         right: 15px;
@@ -174,6 +212,12 @@
         width: 200px;
     }
 
+    .nav-toggle {
+        position: fixed;
+        right: 25px;
+        top: 40px;
+    }
+    
     .menu-bars {
         position: fixed;
         right: 15px;

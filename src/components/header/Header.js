@@ -5,6 +5,7 @@ import Logo from "../logo/Logo";
 
 const BodyHeader = () => {
     const [showNavbarMobile, setShowNavbarMobile] = useState(false);
+    const [isHamburgerToggled, setIsHamburgerToggled] = useState(false);
 
     const handleGoStart = () => {
         window.location.href = '/';
@@ -23,10 +24,22 @@ const BodyHeader = () => {
                 section.scrollIntoView({ behavior: 'smooth' });
             }
         }
+
+        let navToggle = document.querySelector('.nav-toggle');
+        let bars = document.querySelectorAll('.bar');
+
+        function toggleHamburger() {
+            bars.forEach(bar => bar.classList.toggle('x'))
+        }
+
+        if (navToggle) {
+            navToggle.addEventListener('click', toggleHamburger);
+        }
     }, []);
 
     const handleShowNavbar = () => {
       setShowNavbarMobile(!showNavbarMobile);
+      setIsHamburgerToggled(!isHamburgerToggled);
     }
 
     const handleAbutUs = () => {
@@ -50,11 +63,16 @@ const BodyHeader = () => {
                 <Logo />
             </div>
             <button className='menu-icon' onClick={handleShowNavbar}>
-                <i className="fa fa-bars">
+                {/* <i className="fa fa-bars">
                     <svg className='menu-bars' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
                     </svg>
-                </i>
+                </i> */}
+                <a className={`nav-toggle ${isHamburgerToggled ? 'x' : ''}`}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </a>
             </button>
             { showNavbarMobile && (
                 <div  onFocus={()=> setShowNavbarMobile(false)} className='top-bar-mobile'>
