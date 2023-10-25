@@ -111,8 +111,8 @@
 
 .top-bar-mobile {
     position: fixed;
-    right: 30px;
-    top: 90px;
+    right: 0px;
+    top: 110px;
     background-color: rgb(101, 160, 86, 1);
     width: 0;
     transition: all 0.3s ease-in;
@@ -123,14 +123,15 @@
     margin: auto;
     /* flex-direction: row; */
     gap: 10px;
-    margin-right: 60px;
-    width: 60%;
-    height: auto;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
     gap: 30px;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
+    z-index: 99;
 }
 
 .top-bar-desktop {
