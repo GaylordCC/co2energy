@@ -31,8 +31,14 @@ const BodyLandingPage = () => {
                     <BodyHeader />
             </div>
             <div className='animation-wrapped'>
-                <video className='video-container' width="100%" height="auto" loop muted autoPlay playsInline controls='' src={PV} type="video/mp4" >
+                {/* <video className='video-container' width="100%" height="auto" loop={true} muted={true} autoPlay={true} playsInline controls='' src="https://pub-c6555a34f3eb48978c9e27ca3a2d803a.r2.dev/PV.mp4" type="video/mp4" >
+                </video> */}
+                <video playsinline="" class="mui-1se970o-video" controls="" data-automation="VideoPlayer" height="100%" loop=""
+                    autoplay="" width="100%" preload="metadata"
+                    aria-label="video-player">
+                        <source src="https://pub-c6555a34f3eb48978c9e27ca3a2d803a.r2.dev/PV.mp4" type="video/mp4"></source>
                 </video>
+
                 <div className='message-container'>
                     <h2 className='text-message'> Abordamos tus necesidades específicas de manera creativa, innovadora y eficiente, 
                         al tiempo que promovemos la sostenibilidad y la responsabilidad ambiental! 
