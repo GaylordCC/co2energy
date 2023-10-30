@@ -32,6 +32,23 @@
     
     .nombre-logo {
         width: 500px;
-        height: 90px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 912px){
+    .logo {
+        height: 80%;
+        margin-left: 20px;
+    }
+
+    .image-logo {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .nombre-logo {
+        width: 500px;
+        height: 60px;
     }
 }

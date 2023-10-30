@@ -121,7 +121,6 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    /* flex-direction: row; */
     gap: 10px;
     margin-right: 0px;
     width: 100%;
@@ -149,6 +148,7 @@
     height: auto;
     gap: 30px;
 }
+
 
 @media (max-width: 642px) {
     .header {

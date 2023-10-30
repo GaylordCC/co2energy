@@ -31,7 +31,7 @@ const BodyLandingPage = () => {
                     <BodyHeader />
             </div>
             <div className='animation-wrapped'>
-                <video className='video-container' width="100%" height="auto" loop muted autoPlay controls='' src={PV} type="video/mp4" >
+                <video className='video-container' width="100%" height="auto" loop muted autoPlay playsInline controls='' src={PV} type="video/mp4" >
                 </video>
                 <div className='message-container'>
                     <h2 className='text-message'> Abordamos tus necesidades específicas de manera creativa, innovadora y eficiente, 

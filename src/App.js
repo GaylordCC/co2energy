@@ -10,6 +10,7 @@ import Contact from "./components/contactForm/Contact";
 import Banner from "./components/contactForm/Banner";
 import BodyCarousel from "./components/carousel/Carousel";
 import BodyDot from "./components/carousel/Dot";
+import Main from "./components/header2/header2";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       {/* <Banner /> */}
       {/* < Contact /> */}
       {/* <BodyDot /> */}
+      {/* <Main /> */}
     </div>
   );
 }

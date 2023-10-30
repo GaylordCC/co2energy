@@ -519,7 +519,14 @@
     }
 
     .slogan {
-        display: none;
+        /* display: none; */
+        width: 95%;
+        height: 90px;
+        font-size: 23px;
+        letter-spacing: 4px;
+        line-height: 50px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .title-about {
@@ -610,7 +617,14 @@
     }
 
     .slogan {
-        display: none;
+        /* display: none; */
+        width: 95%;
+        height: 90px;
+        font-size: 23px;
+        letter-spacing: 4px;
+        line-height: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .title-about {
