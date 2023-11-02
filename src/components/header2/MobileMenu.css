@@ -53,7 +53,7 @@
 }
 
 .mobile-menu.is-open {
-  max-height: 500px; /* Ajusta este valor según la altura de tu menú */
+  max-height: 100vh; /* Ajusta este valor según la altura de tu menú */
 }
 
 .menu-item {
