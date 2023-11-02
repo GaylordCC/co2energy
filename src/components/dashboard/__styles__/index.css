@@ -13,6 +13,7 @@
     width: 100%;
     position: sticky;
     top: 0px;
+    z-index: 10000;
 }
 
 .header {
@@ -113,13 +114,14 @@
 
 .slogan {
     width: 100%;
+    height: 90px;
     font-family: georgia;
     font-size: 50px;
     letter-spacing: 8px;
     line-height: 70px;
     font-weight: normal;
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .aboutus {
@@ -138,7 +140,7 @@
     margin: auto;
     font-family: 'poppins';
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 45px;
     font-weight: 600;
     letter-spacing: 4px;
@@ -494,7 +496,7 @@
 
     .scroll-video {
         position: absolute;
-        top: 27%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -10%);
         width: auto;
@@ -517,7 +519,14 @@
     }
 
     .slogan {
-        display: none;
+        /* display: none; */
+        width: 95%;
+        height: 90px;
+        font-size: 23px;
+        letter-spacing: 4px;
+        line-height: 50px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .title-about {
@@ -585,7 +594,7 @@
 
     .scroll-video {
         position: absolute;
-        top: 27%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -10%);
         width: auto;
@@ -608,7 +617,14 @@
     }
 
     .slogan {
-        display: none;
+        /* display: none; */
+        width: 95%;
+        height: 90px;
+        font-size: 23px;
+        letter-spacing: 4px;
+        line-height: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
     .title-about {

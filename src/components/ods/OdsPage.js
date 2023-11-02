@@ -50,7 +50,7 @@ const BodyOds = () => {
                         <div className='obs-11'>
                             <a className='a-ods' href='https://www.un.org/sustainabledevelopment/es/cities/' target="_blank">
                                 <div className='font-ods'> ODS 11 </div>
-                                <div className='font-ods-content'> INDUSTRIA, INNOVACION E INFRAESTRUCTURAS </div>
+                                <div className='font-ods-content'> CIUDADES Y COMUNIDADES SOSTENIBLES </div>
                             </a>
                         </div>
                     </div>
