@@ -37,31 +37,29 @@ const EmissionPage = () => {
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Realizamos análisis de las emisiones de gases de efecto invernadero de su empresa, 
-                                    abarcando tanto las fuentes directas como las indirectas, tanto en la producción como 
-                                    en la cadena de suministro.
+                                    Análisis de emisiones de GEI de su organización, (fuentes directas e indirectas) y 
+                                    monitoreo de indicadores de gestión de emisiones con herramientas tecnológicas.
                                 </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Evaluamos el impacto medioambiental de las emisiones de carbono, detectando áreas 
-                                    críticas y oportunidades para la reducción de dichas emisiones.
+                                    Evaluación del impacto ambiental de las emisiones, detectando áreas críticas y 
+                                    oportunidades para la reducción de dichas emisiones.
                                 </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Definimos estrategias concretas de disminución que permiten a la organización establecer 
-                                    objetivos y metas de reducción de emisiones, además de desarrollar estrategias y planes de 
-                                    acción para alcanzarlos.
+                                    Definición de estrategias para disminuir la HC, establecer objetivos y metas de 
+                                    reducción de emisiones, además de desarrollar estrategias y planes de acción para alcanzarlos.
                                 </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
                                 <p>
-                                    Identificamos y recomendamos tecnologías y prácticas más limpias y eficientes que puedan 
-                                    contribuir a la reducción de las emisiones de carbono.
+                                    Identificación de tecnologías y prácticas más limpias y eficientes que contribuyan a la 
+                                    reducción de HC.
                                 </p>
                             </li>
                             <li className='list-serveces'>

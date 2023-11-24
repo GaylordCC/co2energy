@@ -30,31 +30,35 @@ const TrainingPage = () => {
             </div>
             <div className='content-activities'>
                 <div className='im-activities'>
-                    <img className='im-activities' src="https://cdn.pixabay.com/photo/2016/03/26/13/09/laptop-1280536_1280.jpg" />
+                    <img className='im-activities' src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVhcm5pbmd8ZW58MHx8MHx8fDA%3D" />
                 </div>
                 <div className='text-activities'>
                     <div className='list-activitie'>
-                        <h2 className='title-sub'> Servicios de Formación </h2>
+                        <h2 className='title-sub'> Servicios de Formación/Capacitación </h2>
                         <ul className='list-activities'>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
-                                <p> Programa de formación para preparación de auditorias en ISO 50001. </p>
+                                <p> Preparación de auditorías en ISO 50001. </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
-                                <p> Programa de formación/capacitación en temáticas de uso eficiente de la energía (USE). </p>
+                                <p> Mantenimiento Centrado en la Eficiencia Energética (MCEE). </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
-                                <p> Programa de formación/capacitación en temáticas de uso racional de la energía (URE). </p>
+                                <p> Uso Eficiente de la Energía (USE). </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
-                                <p> Programa de formación/capacitación en temáticas de huella de carbono (HC). </p>
+                                <p> Uso Racional de la Energía (URE). </p>
                             </li>
                             <li className='list-serveces'>
                                 <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
-                                <p> Programa de formación/capacitación en temáticas de fuentes de energía y tecnologías renovables. </p>
+                                <p> Huella de Carbono (HC). </p>
+                            </li>
+                            <li className='list-serveces'>
+                                <img src='https://cdn-icons-png.flaticon.com/128/189/189241.png' alt='Bullet Icon' className='list-icon' />
+                                <p> Fuentes de Energía y Tecnologías Renovables. </p>
                             </li>
                         </ul>
                     </div>
